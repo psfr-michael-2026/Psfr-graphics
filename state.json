@@ -57,8 +57,9 @@
     },
     "receipts": {
       "6adac73f778b240e2f96b17b": {
-        "status": "pending",
-        "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6185d3ff979ccd31754feeb162aab81b5501a144/generated/approved-backdoor.jpg"
+        "status": "accepted",
+        "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6185d3ff979ccd31754feeb162aab81b5501a144/generated/approved-backdoor.jpg",
+        "post_id": "6addadfa0b5343d070bdab47"
       }
     }
   }
