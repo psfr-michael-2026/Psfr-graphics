@@ -10,6 +10,12 @@
             "__typename": "InvalidInputError",
             "message": "Invalid post: Post must have either text or media., Facebook posts require a type (post, story, or reel)."
           }
+        },
+        "last_status": {
+          "status": "draft",
+          "sentAt": null,
+          "externalLink": null,
+          "error": null
         }
       },
       "6adac5fe778b240e2f96a871": {
@@ -21,6 +27,12 @@
             "__typename": "InvalidInputError",
             "message": "Invalid post: Post must have either text or media., TikTok posts require at least one image or video."
           }
+        },
+        "last_status": {
+          "status": "draft",
+          "sentAt": null,
+          "externalLink": null,
+          "error": null
         }
       }
     },
