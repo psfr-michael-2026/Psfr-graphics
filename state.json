@@ -2,7 +2,8 @@
   "2026-10-25-am-test-draft": {
     "receipts": {
       "6adac73f778b240e2f96b17b": {
-        "status": "pending"
+        "status": "accepted",
+        "post_id": "6add84a2e4be8a4d868ebd25"
       }
     },
     "content": {
