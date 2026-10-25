@@ -2,6 +2,23 @@
   "repository": "psfr-michael-2026/Psfr-graphics",
   "branch": "main",
   "model": "claude-haiku-4-5-20251001",
-  "channels": [],
-  "topics": ["making a manageable start", "consistency when life is busy", "planning tomorrow", "recognising small wins", "returning after a missed session", "building confidence gradually", "making time for yourself"]
+  "channels": [
+    {
+      "id": "6adac73f778b240e2f96b17b",
+      "service": "facebook"
+    },
+    {
+      "id": "6adac5fe778b240e2f96a871",
+      "service": "tiktok"
+    }
+  ],
+  "topics": [
+    "making a manageable start",
+    "consistency when life is busy",
+    "planning tomorrow",
+    "recognising small wins",
+    "returning after a missed session",
+    "building confidence gradually",
+    "making time for yourself"
+  ]
 }
