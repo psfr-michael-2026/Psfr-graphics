@@ -5,7 +5,14 @@
         "status": "accepted",
         "post_id": "6add84a2e4be8a4d868ebd25",
         "publication": {
-          "status": "pending"
+          "status": "accepted",
+          "result": {
+            "__typename": "PostActionSuccess",
+            "post": {
+              "id": "6add84a2e4be8a4d868ebd25",
+              "status": "scheduled"
+            }
+          }
         },
         "last_status": {
           "status": "draft",
