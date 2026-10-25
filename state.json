@@ -47,5 +47,19 @@
       "takeaway": "Pick one manageable action. Give yourself credit for doing it.",
       "caption": "You don't need to change everything today. Pick one manageable action: prepare tomorrow's bag, make time for a short walk, or plan your next session. Small steps give you something to build on.\n\nPSFR Health Systems\nPower • Strength • Fuel • Recovery\n\n#PSFRHealthSystems #SmallSteps #BuildingHabits #StartingAgain #Consistency"
     }
+  },
+  "2026-10-25-backdoor-approved": {
+    "content": {
+      "headline": "Starting again? Make your first step manageable.",
+      "takeaway": "Put your trainers by the back door tonight.",
+      "caption": "Starting again? Give yourself a clear place to begin.\n\nPut your trainers by the back door tonight and choose a time for a short walk tomorrow. Pick something that fits your day and your ability.\n\nWhat will your first step be?\n\nwww.psfrhealthsystems.co.uk\n\n#PSFR #StartingAgain #SmallSteps #HealthyHabits #Walking",
+      "image_sha256": "f9d4b04127b93b90c36c2d28093763eb3dcb7077b0ccf429dc6aede6283fa750"
+    },
+    "receipts": {
+      "6adac73f778b240e2f96b17b": {
+        "status": "pending",
+        "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6185d3ff979ccd31754feeb162aab81b5501a144/generated/approved-backdoor.jpg"
+      }
+    }
   }
 }
