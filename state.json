@@ -75,10 +75,10 @@
         "post_id": "6addae028b3d437ddcf7034b",
         "last_status": {
           "id": "6addae028b3d437ddcf7034b",
-          "status": "sending",
+          "status": "sent",
           "channelId": "6adac5fe778b240e2f96a871",
-          "sentAt": null,
-          "externalLink": null,
+          "sentAt": "2026-10-25T07:23:20.818Z",
+          "externalLink": "https://tiktok.com/@psfrhealthsystems/video/7700502225390439712",
           "error": null
         }
       }
