@@ -48,13 +48,15 @@ jobs:
               if post['status'].lower() != 'draft':
                   print('Existing non-draft: no mutation repeated.', flush=True)
                   continue
-              if receipt.get('publication'):
+              if receipt.get('publication') and receipt['publication']['status'] != 'rejected':
                   print('Previous publication attempt recorded: no mutation repeated.', flush=True)
                   continue
               receipt['publication'] = {'status':'pending'}
               write_json(STATE, state)
               persist('Record authorized sample publication attempt')
-              mutation = 'mutation { editPost(input: {id: '+json.dumps(pid)+', saveToDraft: false, mode: shareNow, schedulingType: automatic}) { __typename ... on PostActionSuccess { post { id status } } ... on MutationError { message } } }'
+              image_url = 'https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/' + __import__('subprocess').check_output(['git','rev-parse','HEAD'],text=True).strip() + '/generated/2026-10-25-am-test-draft.jpg'
+              metadata = 'facebook: {type: post}' if channel == '6adac73f778b240e2f96b17b' else 'tiktok: {title: '+json.dumps(record['content']['headline'])+'}'
+              mutation = 'mutation { editPost(input: {id: '+json.dumps(pid)+', text: '+json.dumps(post['text'])+', assets: [{image: {url: '+json.dumps(image_url)+'}}], metadata: {'+metadata+'}, saveToDraft: false, mode: shareNow, schedulingType: automatic}) { __typename ... on PostActionSuccess { post { id status } } ... on MutationError { message } } }'
               try:
                   result = buffer(mutation)['editPost']
                   print('PUBLICATION_RESULT', json.dumps(result), flush=True)
