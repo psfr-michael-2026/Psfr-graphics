@@ -1,0 +1,31 @@
+name: Diagnose published sample visibility
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/diagnose-sample.yml']
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Read current posts and destination accounts without publishing
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from psfr import buffer
+          targets = {'facebook':'6add84a2e4be8a4d868ebd25','tiktok':'6add84a5bd33ce99c355b36e'}
+          for service,pid in targets.items():
+              q = 'query { post(input:{id:'+json.dumps(pid)+'}) { id status sentAt externalLink schedulingType notificationStatus error { message rawError supportUrl } assets { mimeType source } channel { id name service serviceId externalLink isDisconnected } } }'
+              print(service, json.dumps(buffer(q)), flush=True)
+          
+          PY
