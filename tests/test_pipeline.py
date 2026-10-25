@@ -54,6 +54,12 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             psfr.validate_post({**self.post, 'headline': 'x' * 86})
 
+    def test_facebook_has_required_post_type(self):
+        query = psfr.create_query({'id': 'fb', 'service': 'facebook'}, self.post,
+                                 'https://example.com/a.jpg', 'test-draft')
+        self.assertIn('facebook: {type: post}', query)
+        self.assertIn('saveToDraft: true', query)
+
     def test_reservation_must_be_saved_before_external_call(self):
         with patch.object(psfr, 'buffer') as call:
             def failed_save():

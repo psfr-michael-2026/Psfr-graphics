@@ -28,3 +28,5 @@ jobs:
         run: python psfr.py test-draft
 
 # Capture exact API validation errors during initial account test.
+
+# Facebook explicitly uses the standard post format.

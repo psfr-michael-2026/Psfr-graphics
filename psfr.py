@@ -185,6 +185,8 @@ def verify_image(url):
 def create_query(channel, post, url, mode):
     # JSON string quoting also safely quotes GraphQL string literals.
     metadata = ''
+    if channel['service'].lower() == 'facebook':
+        metadata = ', metadata: {facebook: {type: post}}'
     if channel['service'].lower() == 'tiktok':
         metadata = ', metadata: {tiktok: {title: ' + json.dumps(post['headline']) + '}}'
     return ('mutation { createPost(input: {channelId: ' + json.dumps(channel['id']) +
