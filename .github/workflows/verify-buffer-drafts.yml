@@ -1,0 +1,39 @@
+name: Verify Buffer test drafts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-buffer-drafts.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Read back test draft status and attached media
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from psfr import buffer
+          state = json.loads(Path('state.json').read_text())
+          record = state['2026-10-25-am-test-draft']
+          for channel_id, receipt in record['receipts'].items():
+              assert receipt['status'] == 'accepted'
+              query = 'query { post(input: {id: ' + json.dumps(receipt['post_id']) + '}) { id status channelId schedulingType assets { mimeType } } }'
+              post = buffer(query)['post']
+              print(json.dumps(post))
+              assert post['channelId'] == channel_id
+              assert post['status'].lower() == 'draft', 'Test post is not a draft'
+              assert post['schedulingType'] == 'automatic', 'Notification-only post'
+              assert post['assets'], 'No image attached'
+          print('Verified both automatic-publishing drafts and their attached images; nothing published.')
+          PY
