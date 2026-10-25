@@ -59,12 +59,28 @@
       "6adac73f778b240e2f96b17b": {
         "status": "accepted",
         "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6185d3ff979ccd31754feeb162aab81b5501a144/generated/approved-backdoor.jpg",
-        "post_id": "6addadfa0b5343d070bdab47"
+        "post_id": "6addadfa0b5343d070bdab47",
+        "last_status": {
+          "id": "6addadfa0b5343d070bdab47",
+          "status": "sent",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "sentAt": "2026-10-25T07:21:35.246Z",
+          "externalLink": "https://facebook.com/1227690017104228_122129182809469780",
+          "error": null
+        }
       },
       "6adac5fe778b240e2f96a871": {
         "status": "accepted",
         "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6185d3ff979ccd31754feeb162aab81b5501a144/generated/approved-backdoor.jpg",
-        "post_id": "6addae028b3d437ddcf7034b"
+        "post_id": "6addae028b3d437ddcf7034b",
+        "last_status": {
+          "id": "6addae028b3d437ddcf7034b",
+          "status": "sending",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "sentAt": null,
+          "externalLink": null,
+          "error": null
+        }
       }
     }
   }
