@@ -1,0 +1,47 @@
+name: PSFR graphics
+on:
+  push:
+    branches: [main]
+    paths: ['psfr.py', 'requirements.txt', 'tests/**', '.github/workflows/psfr.yml']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Choose demo first, then check, then draft. Queue can publish.
+        type: choice
+        options: [demo, check, test-draft, draft, queue]
+        default: demo
+  schedule:
+    - cron: '17 7,18 * * *'
+      timezone: Europe/London
+permissions:
+  contents: write
+concurrency:
+  group: psfr-graphics
+  cancel-in-progress: false
+jobs:
+  graphics:
+    if: github.event_name != 'schedule' || vars.PSFR_AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: |
+          git config user.name 'PSFR automation'
+          git config user.email 'psfr-automation@users.noreply.github.com'
+      - name: Create graphic and send to Buffer
+        env:
+          PSFR_MODE: ${{ inputs.mode || (github.event_name == 'schedule' && 'queue' || 'demo') }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python psfr.py "$PSFR_MODE"
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'push' || inputs.mode == 'demo'
+        with:
+          name: PSFR-preview
+          path: preview.jpg
+          retention-days: 3
