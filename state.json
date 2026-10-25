@@ -25,11 +25,7 @@
         "status": "accepted",
         "post_id": "6add84a5bd33ce99c355b36e",
         "publication": {
-          "status": "rejected",
-          "result": {
-            "__typename": "InvalidInputError",
-            "message": "Invalid post: Post must have either text or media., TikTok posts require at least one image or video."
-          }
+          "status": "pending"
         },
         "last_status": {
           "status": "draft",
