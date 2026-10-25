@@ -3,7 +3,10 @@
     "receipts": {
       "6adac73f778b240e2f96b17b": {
         "status": "accepted",
-        "post_id": "6add84a2e4be8a4d868ebd25"
+        "post_id": "6add84a2e4be8a4d868ebd25",
+        "publication": {
+          "status": "pending"
+        }
       },
       "6adac5fe778b240e2f96a871": {
         "status": "accepted",
