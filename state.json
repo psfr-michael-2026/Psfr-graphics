@@ -5,11 +5,7 @@
         "status": "accepted",
         "post_id": "6add84a2e4be8a4d868ebd25",
         "publication": {
-          "status": "rejected",
-          "result": {
-            "__typename": "InvalidInputError",
-            "message": "Invalid post: Post must have either text or media., Facebook posts require a type (post, story, or reel)."
-          }
+          "status": "pending"
         },
         "last_status": {
           "status": "draft",
