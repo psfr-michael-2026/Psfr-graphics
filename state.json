@@ -35,9 +35,9 @@
           }
         },
         "last_status": {
-          "status": "sending",
-          "sentAt": null,
-          "externalLink": null,
+          "status": "sent",
+          "sentAt": "2026-10-25T04:33:07.906Z",
+          "externalLink": "https://tiktok.com/@psfrhealthsystems/video/7700458258326129952",
           "error": null
         }
       }
