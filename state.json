@@ -14,7 +14,10 @@
       },
       "6adac5fe778b240e2f96a871": {
         "status": "accepted",
-        "post_id": "6add84a5bd33ce99c355b36e"
+        "post_id": "6add84a5bd33ce99c355b36e",
+        "publication": {
+          "status": "pending"
+        }
       }
     },
     "content": {
