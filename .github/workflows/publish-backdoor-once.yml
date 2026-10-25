@@ -10,7 +10,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
-    if: github.event.head_commit.message == 'PSFR: publish approved back-door post once'
+    if: >-
+      github.event.head_commit.message == 'PSFR: publish approved back-door post once'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
