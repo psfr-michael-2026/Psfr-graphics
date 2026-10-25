@@ -1,7 +1,28 @@
 # PSFR automatic graphics — prepared implementation
 
-Status: locally tested implementation, not deployed or connected to Michael's accounts.
-No live API calls or public posts have been made by this package.
+Status updated 25 October 2026: deployed. One sample image and caption published to both channels, with Michael supplying screenshots confirming each is visible.
+Recurring posting remains OFF. Fresh Claude API generation has not been configured or live-tested.
+
+## Resume here — current checkpoint
+
+This repository is the durable source for automation code, public content instructions, images and delivery receipts. It runs on GitHub's cloud runners; no particular ChatGPT conversation or awake laptop is required for scheduled execution once enabled.
+
+- Facebook: PSFR Health Systems; channel 6adac73f778b240e2f96b17b.
+- TikTok: psfrhealthsystems; channel 6adac5fe778b240e2f96a871.
+- BUFFER_API_KEY is stored in GitHub Actions secrets. Never request its value in chat.
+- Sample headline: "One small step today is still a step."
+- Facebook verified by user screenshot: https://www.facebook.com/122128398501469780/posts/122129151057469780
+- TikTok verified by user screenshot: https://www.tiktok.com/@psfrhealthsystems/video/7700458258326129952
+- Existing sample IDs: Facebook 6add84a2e4be8a4d868ebd25; TikTok 6add84a5bd33ce99c355b36e. Do not recreate or republish these.
+- Automatic publishing was confirmed, not notification-only publishing.
+- Current renderer produces one 1080x1920 JPEG with a text wordmark. Multi-image posts, video and new layouts require implementation and tests.
+- Publishing an existing draft via editPost required explicitly resupplying text, image and service metadata. Facebook requires metadata.facebook.type:post.
+- Buffer "sent" is a delivery report; visible platform posts were additionally confirmed by screenshots.
+- No paid API generation, new subscriptions or recurring publication has been authorised by this checkpoint.
+
+Next work: agree a public content brief, choose a content bank or separately billed AI API generation, test future content production, agree London morning/evening times, and enable recurring posting only after approval. A prepared content bank can avoid AI API charges but requires replenishment; it is not yet implemented.
+
+Suggested project organisation: retain this conversation for Automation & Publishing; use a separate Content & Design chat in the same PSFR project when useful. In a new chat, provide this repository and ask the assistant to read AUTOMATION.md, brand.txt, config.json and current workflow/state before changes. Claude chat project context is not automatically available to this runner or the API.
 
 ## What this changes
 
@@ -83,10 +104,8 @@ Local tests cover rendering dimensions/size, content validation, draft requests,
 durable reservation before a post request, uncertain responses and duplicate skips.
 Mocked API results test program behaviour only; they are not live service tests.
 
-Outstanding: actual API authentication, target channel IDs, repository push
-permission, public image fetch from GitHub, Buffer draft acceptance, TikTok and
-Facebook publication, and the running schedule. Do not label this operational
-until those account-specific checks succeed.
+Completed live: Buffer authentication, exact channel discovery, repository writes, public image fetch, real draft creation, publication to both services, and user visual verification.
+Outstanding: fresh AI generation (or a content bank), approved ongoing content brief, final publishing times, and enabling/testing the recurring schedule.
 
 Buffer's current API reference includes TikTok photo title metadata. A guide's
 supported-platform list omits TikTok. The live draft and publication tests resolve
