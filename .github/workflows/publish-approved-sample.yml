@@ -1,0 +1,83 @@
+name: Publish approved sample once
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-approved-sample.yml']
+permissions:
+  contents: write
+concurrency:
+  group: psfr-graphics
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Publish only the two user-approved existing sample drafts
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json, time
+          from pathlib import Path
+          from psfr import buffer, persist, write_json, STATE
+          
+          state = json.loads(STATE.read_text())
+          record = state['2026-10-25-am-test-draft']
+          expected = {'6adac73f778b240e2f96b17b': '6add84a2e4be8a4d868ebd25', '6adac5fe778b240e2f96a871': '6add84a5bd33ce99c355b36e'}
+          fields = 'id status channelId schedulingType sentAt externalLink error { message supportUrl } assets { mimeType } text'
+          def read(pid):
+              return buffer('query { post(input: {id: '+json.dumps(pid)+'}) { '+fields+' } }')['post']
+          for channel, pid in expected.items():
+              receipt = record['receipts'][channel]
+              assert receipt['post_id'] == pid
+              post = read(pid)
+              assert post['channelId'] == channel
+              assert post['text'] == record['content']['caption']
+              assert post['assets'] and post['schedulingType'] == 'automatic'
+              print('BEFORE', json.dumps(post), flush=True)
+              if post['status'].lower() != 'draft':
+                  print('Existing non-draft: no mutation repeated.', flush=True)
+                  continue
+              if receipt.get('publication'):
+                  print('Previous publication attempt recorded: no mutation repeated.', flush=True)
+                  continue
+              receipt['publication'] = {'status':'pending'}
+              write_json(STATE, state)
+              persist('Record authorized sample publication attempt')
+              mutation = 'mutation { editPost(input: {id: '+json.dumps(pid)+', saveToDraft: false, mode: shareNow, schedulingType: automatic}) { __typename ... on PostActionSuccess { post { id status } } ... on MutationError { message } } }'
+              try:
+                  result = buffer(mutation)['editPost']
+                  print('PUBLICATION_RESULT', json.dumps(result), flush=True)
+                  receipt['publication'] = {'status': 'accepted' if result['__typename']=='PostActionSuccess' else 'rejected', 'result':result}
+              except Exception:
+                  receipt['publication'] = {'status':'uncertain'}
+                  write_json(STATE, state)
+                  persist('Record uncertain sample publication response')
+                  raise
+              write_json(STATE, state)
+              persist('Record sample publication response')
+          for attempt in range(12):
+              done = True
+              for channel, pid in expected.items():
+                  post = read(pid)
+                  print('STATUS', json.dumps(post), flush=True)
+                  record['receipts'][channel]['last_status'] = {k:post[k] for k in ('status','sentAt','externalLink','error')}
+                  if post['status'].lower() not in ('sent','error','failed','draft'):
+                      done = False
+              write_json(STATE, state)
+              persist('Save sample publishing status')
+              if done:
+                  break
+              time.sleep(10)
+          
+          PY
