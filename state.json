@@ -62,8 +62,9 @@
         "post_id": "6addadfa0b5343d070bdab47"
       },
       "6adac5fe778b240e2f96a871": {
-        "status": "pending",
-        "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6185d3ff979ccd31754feeb162aab81b5501a144/generated/approved-backdoor.jpg"
+        "status": "accepted",
+        "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6185d3ff979ccd31754feeb162aab81b5501a144/generated/approved-backdoor.jpg",
+        "post_id": "6addae028b3d437ddcf7034b"
       }
     }
   }
