@@ -1,0 +1,28 @@
+name: Test Buffer image drafts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/test-buffer-drafts.yml']
+permissions:
+  contents: write
+concurrency:
+  group: psfr-graphics
+  cancel-in-progress: false
+jobs:
+  test-drafts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name 'PSFR automation'
+          git config user.email 'psfr-automation@users.noreply.github.com'
+      - name: Host sample and create drafts only (no AI charge or publication)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python psfr.py test-draft
