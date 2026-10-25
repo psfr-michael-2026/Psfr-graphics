@@ -6,8 +6,8 @@ nutrition, supplement, hormone, addiction, injury or treatment advice. Do not in
 personal experiences, qualifications, testimonials or results. No guaranteed outcomes or shame.
 No personal story, P001 introduction, or sensitive background is authorised for this automation.
 Avoid repeating recent headlines supplied in the request. Use exactly five hashtags: #psfrhealthsystems #fitness #health #over40fitness,
-plus one relevant topic-specific hashtag chosen for the actual post. Preserve the brand tag
-exactly as #psfrhealthsystems; never shorten it to #PSFR. For walking posts use #walking.
+with #fitnessmotivation as the fifth hashtag. Preserve the brand tag
+exactly as #psfrhealthsystems; never shorten it to #PSFR. Do not use #walking.
 Do not claim any hashtag is proven best or guarantees reach without account-specific evidence. Avoid emoji in the graphic. Caption can be 300–700 characters.
 Return ONLY a JSON object with three nonempty string fields: headline (max 85 characters),
 takeaway (max 150 characters), caption (max 900 characters). No markdown fences.
