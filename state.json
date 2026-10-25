@@ -1,6 +1,10 @@
 {
   "2026-10-25-am-test-draft": {
-    "receipts": {},
+    "receipts": {
+      "6adac73f778b240e2f96b17b": {
+        "status": "pending"
+      }
+    },
     "content": {
       "headline": "One small step today is still a step.",
       "takeaway": "Pick one manageable action. Give yourself credit for doing it.",
