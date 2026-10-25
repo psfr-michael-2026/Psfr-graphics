@@ -26,3 +26,5 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: python psfr.py test-draft
+
+# Capture exact API validation errors during initial account test.

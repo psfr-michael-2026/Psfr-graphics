@@ -191,7 +191,7 @@ def create_query(channel, post, url, mode):
             ', text: ' + json.dumps(post['caption']) + ', schedulingType: automatic, mode: addToQueue' +
             ', needsApproval: false, aiAssisted: true, saveToDraft: ' + ('true' if mode in ('draft', 'test-draft') else 'false') +
             ', assets: [{image: {url: ' + json.dumps(url) + '}}]' + metadata +
-            '}) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }')
+            '}) { __typename ... on PostActionSuccess { post { id } } ... on MutationError { message } } }')
 
 
 def deliver(channel, post, url, mode, receipt, save):
@@ -211,8 +211,13 @@ def deliver(channel, post, url, mode, receipt, save):
         raise RuntimeError('Buffer response was uncertain. Check Buffer before another attempt.') from None
     if not result.get('post', {}).get('id'):
         receipt['status'] = 'rejected'
+        detail = str(result.get('message', result.get('__typename', 'Unknown error')))
+        for secret_name in ('BUFFER_API_KEY', 'ANTHROPIC_API_KEY'):
+            if os.environ.get(secret_name):
+                detail = detail.replace(os.environ[secret_name], '[redacted]')
+        receipt['error'] = detail[:600]
         save()
-        raise RuntimeError('Buffer did not accept this post. Check the channel and media requirements.')
+        raise RuntimeError('Buffer rejected this post: ' + detail[:600])
     receipt.update(status='accepted', post_id=result['post']['id'])
     save()
 
