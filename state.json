@@ -15,9 +15,9 @@
           }
         },
         "last_status": {
-          "status": "draft",
-          "sentAt": null,
-          "externalLink": null,
+          "status": "sent",
+          "sentAt": "2026-10-25T04:31:21.203Z",
+          "externalLink": "https://facebook.com/1227690017104228_122129151057469780",
           "error": null
         }
       },
@@ -35,7 +35,7 @@
           }
         },
         "last_status": {
-          "status": "draft",
+          "status": "sending",
           "sentAt": null,
           "externalLink": null,
           "error": null
