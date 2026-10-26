@@ -27,3 +27,4 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: python publish_mind_once.py
+# Asset transfer verified against local Git blob hashes.
