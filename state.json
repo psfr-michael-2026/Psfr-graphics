@@ -83,5 +83,38 @@
         }
       }
     }
+  },
+  "2026-10-26-W01-D02-AM-approved": {
+    "content": {
+      "id": "W01-D02-AM",
+      "headline": "Move for your mind, too.",
+      "caption": "Exercise can do more than change how you look.\n\nRegular physical activity can help lift your mood, ease stress and support better sleep.\n\nA gym session, swimming, cycling or dancing — choose something you enjoy and can fit into your life.\n\nWhich activity helps you feel better? Tell us in the comments.\n\nFollow PSFR Health Systems for practical ways to look after your body and mind.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #Over40Fitness #MentalHealthAwareness",
+      "assets": {
+        "facebook": {
+          "path": "approved/move-for-your-mind/facebook.jpg",
+          "sha256": "87e1115aa1eac415aa74e0190c493baa4cd39274fb18fbf13da6c2b29303074c",
+          "dimensions": [
+            1440,
+            1800
+          ]
+        },
+        "tiktok": {
+          "path": "approved/move-for-your-mind/tiktok.jpg",
+          "sha256": "e5f0ec28475497649b26d3560f85417d064ae2e70c6471a138a53284f7356845",
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      },
+      "authorised_action": "shareNow",
+      "approval_date": "2026-10-26"
+    },
+    "receipts": {
+      "6adac73f778b240e2f96b17b": {
+        "status": "pending",
+        "image_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/22e94e3952cb9c9f0a077508671caac6155ab0b3/approved/move-for-your-mind/facebook.jpg"
+      }
+    }
   }
 }
