@@ -1,0 +1,23 @@
+name: Check Buffer video destinations
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/check-buffer-video-channels.yml']
+permissions:
+  contents: read
+jobs:
+  check:
+    if: >-
+      github.event.head_commit.message == 'PSFR: check three video destinations'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Read connected Buffer channels only
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python -c 'import json; from psfr import discover_channels; print(json.dumps(discover_channels(), ensure_ascii=False))'
