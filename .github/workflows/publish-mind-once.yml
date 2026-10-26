@@ -1,0 +1,29 @@
+name: Publish approved move-for-your-mind post once
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-mind-once.yml']
+permissions:
+  contents: write
+concurrency:
+  group: psfr-graphics
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: >-
+      github.event.head_commit.message == 'PSFR: publish approved mind post once'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name 'PSFR automation'
+          git config user.email 'psfr-automation@users.noreply.github.com'
+      - name: Publish only the approved mind post to Facebook and TikTok
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python publish_mind_once.py
