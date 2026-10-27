@@ -170,3 +170,10 @@ This supersedes earlier image-only/testing notes for this one authorised test. R
 - YouTube draft: 6ae020d9e322dad801213466 (vertical TikTok asset reused).
 - Each was independently read back from Buffer: correct channel, exact caption, status draft, automatic publishing mode and video/mp4 asset attached. Original files contain AAC soundtrack. This is draft/API verification, not live platform delivery or user playback verification.
 - Next action: Michael reviews the existing morning video/music and caption in the three drafts. Await explicit publication instruction; publish these exact draft IDs if authorised. Do not recreate, duplicate or republish the mind post as a test. Both 27 October creatives remain awaiting final approval; fourteen-post bank incomplete. Subscription/editor research remains deferred.
+
+
+## Music OFF — 27 October 2026 (latest instruction)
+
+Michael requests all PSFR videos WITHOUT MUSIC. This overrides earlier upbeat/112 BPM soundtrack preferences. Do not add any backing music unless explicitly requested later. Applies to the prepared evening post and future videos too; strip audio before use. Original music files are superseded and must not be posted.
+
+The SAME Facebook, TikTok and YouTube morning draft IDs above have been edited to attach silent MP4s. Captions and video pictures are unchanged; no new drafts, publication or scheduling. Zero audio streams and identical compressed video-stream hashes verified; each Buffer draft was read back to verify its new silent video source. Durable per-channel audio_update receipts are in state.json. Silent videos are in generated/ with -silent.mp4 names. Successful run: https://github.com/psfr-michael-2026/Psfr-graphics/actions/runs/40448118007. Recurring posting remains OFF. Await creative approval and explicit publication instruction.
