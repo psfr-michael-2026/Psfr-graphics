@@ -168,7 +168,8 @@
         }
       },
       "status": "rejected-do-not-reuse",
-      "rejection_reason": "Michael rejected the shopping-bag aesthetic as corny and requested complete removal."
+      "rejection_reason": "Michael rejected the shopping-bag aesthetic as corny and requested complete removal.",
+      "active_assets_removed": true
     },
     "receipts": {
       "6adac73f778b240e2f96b17b": {
