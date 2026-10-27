@@ -302,5 +302,352 @@
         }
       }
     }
+  },
+  "2026-10-28-week-01": {
+    "content": {
+      "bank": "2026-10-28-week-01",
+      "authorisation": "Michael approved uploading and morning/evening scheduling 27 October 2026. Latest tags exclude Over40Fitness and include FitnessMotivation and gym.",
+      "timezone": "Europe/London",
+      "posts": [
+        {
+          "id": "D01-AM",
+          "headline": "Your health deserves a place in your diary.",
+          "caption": "Work, appointments and other people’s plans can fill the week before you notice.\n\nGive your own health a place in the diary too. Choose two realistic activity slots and decide what you’ll do in them.\n\nMake the plan fit the week you actually have.\n\nSave this and put your two slots in the diary today.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-28T07:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D01-AM-Facebook-silent.mp4",
+              "sha256": "cd0210f67a5e587cd3344d21be54019be0915cf97d4f85637c8230e2b21a227e",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D01-AM-TikTok-silent.mp4",
+              "sha256": "8f5aa66ccded8e70e4e0a01215266e62bc8ec6f78df74c0af40cf57d899a8e75",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D01-PM",
+          "headline": "Recovery is part of getting stronger.",
+          "caption": "A good training plan includes time to recover.\n\nIf you’re doing full-body strength sessions, a day between them is a practical starting point. Recovery needs vary with the session and how you feel.\n\nPlan those days alongside your workouts, rather than treating them as an afterthought.\n\nSave this when you plan your next training week.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-28T19:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D01-PM-Facebook-silent.mp4",
+              "sha256": "dad60c130b718b8089b3614e9fe026e27936ca7d5d9d4cb1929964fa9e37ebb1",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D01-PM-TikTok-silent.mp4",
+              "sha256": "279df03335b9d8cfa4edb6136584d07bd4b6e3c14c318d09ca65762a8afbb5be",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D02-AM",
+          "headline": "You don’t need a gym to get moving.",
+          "caption": "Fitness can fit into places you already go.\n\nTaking the stairs is one way to add movement to the day. Choose a comfortable pace, use the handrail if needed, and take the lift when that’s the better option for you.\n\nWhich everyday place gives you a chance to move more? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-29T07:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D02-AM-Facebook-silent.mp4",
+              "sha256": "8d429ba6345107c904ef37c765ab5b4c21ce79dd71a88eeff9d4b84bbda83ef6",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D02-AM-TikTok-silent.mp4",
+              "sha256": "612d2cec32d3c094ed6acdb99ab3f366d589f4ad2911893f1f2403526845942b",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D02-PM",
+          "headline": "More ways to get your protein.",
+          "caption": "Chicken and eggs are useful protein foods. So are fish, yoghurt, tofu, beans and lentils.\n\nYou’ve got options — you don’t need to eat the same meal every day.\n\nIf you’re choosing foods with less fat, skinless chicken breast, white fish and plain low-fat yoghurt are options. Eggs can still fit into a balanced diet.\n\nFor an easy plant option, stir cooked lentils into a soup or curry. They add fibre as well as protein.\n\nSave this for your next food shop, and share it with someone who wants more variety.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-29T19:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D02-PM-Facebook-silent.mp4",
+              "sha256": "d2c9d8c4d8943067ca9ea8d3d86df1bd74cb11a9150b16c5a37b15be0d8b275e",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D02-PM-TikTok-silent.mp4",
+              "sha256": "ba609b1c2a2d6cda4fa8ed363911db242d01ff1361df88482804d16deabeab2f",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D03-AM",
+          "headline": "Progress has more than one measure.",
+          "caption": "The scales don’t tell you everything about your fitness.\n\nYou might lift a little more, swim further, or notice that a familiar movement feels easier.\n\nChoose one useful measure and record it so you can compare your own progress over time.\n\nTell us in the comments: what would progress look like for you?\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-30T07:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D03-AM-Facebook-silent.mp4",
+              "sha256": "c49c4546c8bff65c4ea6bf682c30476acd3480f0dd28d14ad70b5a7a3d03d8f3",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D03-AM-TikTok-silent.mp4",
+              "sha256": "fe3fecb748b10dd049ea983c7565db54afd1e535f4f2290b4550a335456a6405",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D03-PM",
+          "headline": "Frozen vegetables still count.",
+          "caption": "Your vegetables don’t have to be fresh from a market to count.\n\nFrozen vegetables count towards your 5 A Day too. They’re useful to keep on hand for soups, curries, pasta and quick dinners.\n\nChoose the amount that suits the meal and cook according to the packet.\n\nSave this for your next food shop.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-30T19:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D03-PM-Facebook-silent.mp4",
+              "sha256": "712853aecd748331a9cc16be163b176122f7f7c3767dcce2bac657ac5e89665f",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D03-PM-TikTok-silent.mp4",
+              "sha256": "fae8dfec1a557b1b77b76aa166cfced66f705ac5c20a300f0d2b4720d7ec9f46",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D04-AM",
+          "headline": "No one else’s pace has to be yours.",
+          "caption": "Someone else’s speed is not your training plan.\n\nChoose a pace and distance that suit your current fitness. For moderate activity, you’ll usually be able to talk but not sing.\n\nBuild from your own starting point and pay attention to how you feel.\n\nShare this with someone who feels they have to keep up.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-31T07:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D04-AM-Facebook-silent.mp4",
+              "sha256": "0bba8c1d3d630759e8fb03b2f3749091a20022fe2cbcc9a71faf94a1138bf04d",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D04-AM-TikTok-silent.mp4",
+              "sha256": "b81b7ccd13a20397fe81f6b76f0f32f433ade02d23832ff1bb3cc6bb4b7da8c6",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D04-PM",
+          "headline": "Give your evenings a gentler landing.",
+          "caption": "A busy day doesn’t always stop when you get home.\n\nA regular wind-down routine can help you prepare for sleep. Try something calm, such as reading, and give yourself a break from screens before bed.\n\nChoose a routine you can repeat around your own schedule.\n\nWhat helps you switch off? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-31T19:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D04-PM-Facebook-silent.mp4",
+              "sha256": "3f55918acfd2bd541b053436096ccdabcd13d73631e1631399a91cb5d4335613",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D04-PM-TikTok-silent.mp4",
+              "sha256": "f052618510791d59044c02d20a165b054e660e15705d676e9bd3c0ddc44d0259",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D05-AM",
+          "headline": "Make your break a movement break.",
+          "caption": "Long stretches at a desk can pass without much movement.\n\nUse a break to stand up, move around or do a task away from your chair, if you’re able to.\n\nIt’s a way to break up sitting; your planned exercise still has its place too.\n\nSave this as a reminder for your next working day.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-01T07:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D05-AM-Facebook-silent.mp4",
+              "sha256": "ad59d18a7791b9f4d8a86f7b80638cfffa1780fb4ba932ee6047d075c0c0bbb0",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D05-AM-TikTok-silent.mp4",
+              "sha256": "c3afde04e77e2e8ce73b15e32f1f3911fcbf0813d2582c35b077e8425c83c4ad",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D05-PM",
+          "headline": "More fibre can start with one swap.",
+          "caption": "You don’t have to change every meal to get more fibre into your day.\n\nWholemeal bread, oats, beans, lentils, fruit and vegetables can all help.\n\nStart with one food you eat regularly and look for a higher-fibre option. Increase fibre gradually and keep drinking fluids.\n\nSave this and choose one swap for your next shop.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-01T19:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D05-PM-Facebook-silent.mp4",
+              "sha256": "9945d822b8daeb0d829ecbca3ebd0f569f1fc16824c7ca01b01170d79f72a952",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D05-PM-TikTok-silent.mp4",
+              "sha256": "03b77aea96ebff73416f8dbed0b74699f2b16fd7b847825e4b1e07282b437f29",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D06-AM",
+          "headline": "Make fitness something you share.",
+          "caption": "An activity can be a chance to spend time together as well as move.\n\nInvite a friend to swim, cycle, play a game or try a class with you. Agree something that suits both of you.\n\nYou don’t have to turn it into a competition.\n\nShare this with the person you’d invite.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-02T07:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D06-AM-Facebook-silent.mp4",
+              "sha256": "8e34c2014cd429a39cd61b13686117efb6855ae181912def257126d24e65ef53",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D06-AM-TikTok-silent.mp4",
+              "sha256": "cfbb3014babcecfa67aa6f43cbc515a817c59ace10d73eb10a698f7c4ddd16aa",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D06-PM",
+          "headline": "Water deserves a place in your routine.",
+          "caption": "It’s easy to get absorbed in a busy day and forget to drink.\n\nKeep a drink handy and have fluids regularly. You may need more when you’re active or it’s hot.\n\nWater is a straightforward option; other drinks can contribute too.\n\nSave this as a reminder to make drinking part of your routine.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-02T19:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D06-PM-Facebook-silent.mp4",
+              "sha256": "337b256f3bd7c6638fc2d6909c7a8b8c74b0fc9c30a439ca3894ab17eaba7083",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D06-PM-TikTok-silent.mp4",
+              "sha256": "25dda5712c73a9f035d35b87bcc8df7b8f76cc9a8d81ae0cc63b2c70b851d044",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D07-AM",
+          "headline": "The garden counts as movement, too.",
+          "caption": "Being active doesn’t always mean putting on gym kit.\n\nGardening can get you moving. More demanding jobs, such as digging, can also work your muscles.\n\nChoose a task that suits your ability, use tools you can manage and take breaks as needed.\n\nWhich active hobby do you enjoy? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-03T07:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D07-AM-Facebook-silent.mp4",
+              "sha256": "6fba4c55b7f52ced3ffb66930fd09d75a3a0f386633ae2a86bbe8ed0a61b8fe4",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D07-AM-TikTok-silent.mp4",
+              "sha256": "da7a7ec9dc5b1589e18c038f26f62db6ef78fc577adf7b640ac5266ff22f5dbc",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        {
+          "id": "D07-PM",
+          "headline": "Make the next meal easier.",
+          "caption": "Deciding what to eat is harder when you’re tired and the kitchen feels empty.\n\nBefore your next shop, choose one straightforward meal with vegetables, a protein food and a starchy food such as potatoes, rice or pasta.\n\nWrite down what you need. It gives you one less decision to make later.\n\nSave this for your next shopping list.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-03T19:00:00Z",
+          "assets": {
+            "facebook": {
+              "path": "approved/week-01/PSFR-WEEK-D07-PM-Facebook-silent.mp4",
+              "sha256": "0d51e63f769f9c3f0792e00aebcc9838b5c0cf273b631a5788c75f79f601564e",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "tiktok": {
+              "path": "approved/week-01/PSFR-WEEK-D07-PM-TikTok-silent.mp4",
+              "sha256": "577044e8ed88264d41dacd02951b767adee29d15829c528bed12d7c968e9dd93",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "media_commit": "49d1c4734741a5d459426cba89f64aac8b0cc81e",
+    "receipts": {}
   }
 }
