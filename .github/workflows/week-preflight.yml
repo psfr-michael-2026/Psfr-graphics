@@ -1,0 +1,32 @@
+name: PSFR week connection and queue check
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/week-preflight.yml']
+permissions:
+  contents: read
+jobs:
+  check:
+    if: github.event.head_commit.message == 'PSFR: check week scheduling readiness'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Read scheduling capabilities only
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from psfr import buffer,discover_channels
+          print("CHANNELS",json.dumps(discover_channels()))
+          for cid in ['6adac73f778b240e2f96b17b','6adac5fe778b240e2f96a871']:
+              query='query { channel(input:{id:'+json.dumps(cid)+'}) { id name service timezone hasActiveMemberDevice isDisconnected isLocked isQueuePaused } }'
+              print("DETAIL",json.dumps(buffer(query)))
+          for name in ['WeeklyPostingLimit','PostTypeFacebook','PostsConnection','CreatePostInput','TikTokPostMetadataInput']:
+              print("SCHEMA",json.dumps(buffer('query { __type(name:'+json.dumps(name)+') { name fields { name type {kind name ofType {kind name}} } inputFields {name type {kind name ofType {kind name}}} enumValues {name} } }')))
+          PY
