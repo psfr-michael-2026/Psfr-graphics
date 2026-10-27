@@ -1900,7 +1900,7 @@
         "verified_draft": false
       },
       "D06-AM": {
-        "status": "pending-draft",
+        "status": "accepted",
         "dueAt": "2026-11-02T07:00:00Z",
         "channel_id": "6ae08d042f1f5ed648e92cc0",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D06-AM-TikTok-silent.mp4",
@@ -1908,7 +1908,8 @@
         "capacity_rejection": {
           "__typename": "LimitReachedError",
           "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
-        }
+        },
+        "post_id": "6ae08f33a21f4739ba9bffcc"
       }
     }
   }
