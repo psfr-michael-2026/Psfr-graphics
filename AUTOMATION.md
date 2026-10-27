@@ -155,3 +155,18 @@ The workflow normally runs on GitHub, not the laptop.
 - https://support.buffer.com/articles/using-buffers-api-GtIYIQilz5
 - https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage
 - https://platform.claude.com/docs/en/models/haiku-4-5/overview
+
+
+## Latest checkpoint — 27 October 2026: three video drafts verified
+
+This supersedes earlier image-only/testing notes for this one authorised test. Recurring posting remains OFF. No publication or scheduling was authorised or performed.
+
+- Saved original morning post: PSFR-2026-10-27-AM, “Train for everyday strength.” Exact saved caption preserved in morning_video_post.json.
+- Original 15-second videos with audio transferred without regeneration. Facebook 1440 × 1800; TikTok/YouTube 1080 × 1920. Checksums verified against saved record and immutable hosted bytes at media commit 041f4bf46be3ab488ceafe326515bfa150da5089.
+- Draft-only implementation: morning_video_drafts.py; workflow .github/workflows/morning-video-drafts.yml. No schedule; uses existing BUFFER_API_KEY secret without exposing it. State key: 2026-10-27-AM-three-channel-video-draft-test. Pending reservations precede mutations; accepted drafts reused; uncertain attempts require reconciliation.
+- Successful run: https://github.com/psfr-michael-2026/Psfr-graphics/actions/runs/40446845396.
+- Facebook draft: 6ae020cea6170f32b1774c03.
+- TikTok draft: 6ae020d305551cc3591ea201.
+- YouTube draft: 6ae020d9e322dad801213466 (vertical TikTok asset reused).
+- Each was independently read back from Buffer: correct channel, exact caption, status draft, automatic publishing mode and video/mp4 asset attached. Original files contain AAC soundtrack. This is draft/API verification, not live platform delivery or user playback verification.
+- Next action: Michael reviews the existing morning video/music and caption in the three drafts. Await explicit publication instruction; publish these exact draft IDs if authorised. Do not recreate, duplicate or republish the mind post as a test. Both 27 October creatives remain awaiting final approval; fourteen-post bank incomplete. Subscription/editor research remains deferred.
