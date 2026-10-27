@@ -219,7 +219,14 @@
           "audio_streams": 0
         },
         "notification_handover": {
-          "status": "pending"
+          "status": "accepted",
+          "response": {
+            "__typename": "PostActionSuccess",
+            "post": {
+              "id": "6ae020d305551cc3591ea201",
+              "status": "scheduled"
+            }
+          }
         }
       },
       "6adfc03d2f1f5ed648df2866": {
