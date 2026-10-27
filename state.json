@@ -816,7 +816,21 @@
         "scheduling_type": "notification",
         "dueAt": "2026-10-29T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D02-PM-TikTok-silent.mp4",
-        "post_id": "6ae06ad798379627cc316f9a"
+        "post_id": "6ae06ad798379627cc316f9a",
+        "last_status": {
+          "id": "6ae06ad798379627cc316f9a",
+          "status": "scheduled",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "Chicken and eggs are useful protein foods. So are fish, yoghurt, tofu, beans and lentils.\n\nYou’ve got options — you don’t need to eat the same meal every day.\n\nIf you’re choosing foods with less fat, skinless chicken breast, white fish and plain low-fat yoghurt are options. Eggs can still fit into a balanced diet.\n\nFor an easy plant option, stir cooked lentils into a soup or curry. They add fibre as well as protein.\n\nSave this for your next food shop, and share it with someone who wants more variety.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-29T19:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D02-PM-TikTok-silent.mp4"
+            }
+          ]
+        }
       }
     }
   }
