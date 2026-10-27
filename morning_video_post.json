@@ -8,7 +8,7 @@
   "headline": "Train for everyday strength.",
   "tip": "Try this: Practise a slow sit-to-stand from a sturdy chair.",
   "caption": "Getting up from a chair. Carrying your shopping. Taking the stairs.\n\nThese are reasons to build strength, too.\n\nTry a slow sit-to-stand: use a solid chair that won’t slide, keep your feet flat and stand up before lowering yourself back down with control. Use your hands for support if needed, and keep the movement comfortable.\n\nStrength work can help you stay capable in everyday life.\n\nWhat everyday task would you like to feel stronger doing? Tell us in the comments.\n\nFollow PSFR Health Systems for practical ways to build your fitness.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #Over40Fitness #StrengthTraining",
-  "soundtrack": "PSFR-upbeat-original-112bpm.wav",
+  "soundtrack": null,
   "duration_seconds": 15,
   "exact_time": null,
   "platforms": {
@@ -18,9 +18,9 @@
         1800
       ],
       "graphic": "PSFR-2026-10-27-AM-Facebook.png",
-      "video": "PSFR-2026-10-27-AM-Facebook-music.mp4",
+      "video": "generated/PSFR-2026-10-27-AM-Facebook-silent.mp4",
       "graphic_sha256": "762e42b82baf184f87e6df7900c9b58e902a54d12e004d5351db4df15834b500",
-      "video_sha256": "57a3b7ad2a99f5254283ef03e71995581ff681d6764183d4e0a203a8a0061f74"
+      "video_sha256": "ed338da82e16b8b446b10a0a30fea85ea5a8c90dbc4cddc4c82dcbeeac99aac0"
     },
     "TikTok": {
       "dimensions": [
@@ -28,9 +28,10 @@
         1920
       ],
       "graphic": "PSFR-2026-10-27-AM-TikTok.png",
-      "video": "PSFR-2026-10-27-AM-TikTok-music.mp4",
+      "video": "generated/PSFR-2026-10-27-AM-TikTok-silent.mp4",
       "graphic_sha256": "fddae4eba2c7e3458045a0e116eb04a798d838e5f00bf51cf82a27e757ed7f34",
-      "video_sha256": "cc1199ff3f1d697fa46460eaab75709af76a50111bb78bc0c6d1aa859f665124"
+      "video_sha256": "e4a6271a35b06f8fc3b6a1082119634dbe59262499e4ef39d78756363dabccf2"
     }
-  }
+  },
+  "audio_policy": "silent-no-music"
 }
