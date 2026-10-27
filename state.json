@@ -839,7 +839,21 @@
         "scheduling_type": "automatic",
         "dueAt": "2026-10-30T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D03-AM-Facebook-silent.mp4",
-        "post_id": "6ae06add98379627cc3171f1"
+        "post_id": "6ae06add98379627cc3171f1",
+        "last_status": {
+          "id": "6ae06add98379627cc3171f1",
+          "status": "scheduled",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "The scales don’t tell you everything about your fitness.\n\nYou might lift a little more, swim further, or notice that a familiar movement feels easier.\n\nChoose one useful measure and record it so you can compare your own progress over time.\n\nTell us in the comments: what would progress look like for you?\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-30T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D03-AM-Facebook-silent.mp4"
+            }
+          ]
+        }
       }
     }
   }
