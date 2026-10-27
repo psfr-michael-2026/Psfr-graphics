@@ -1658,6 +1658,14 @@
       "media_commit": "49d1c4734741a5d459426cba89f64aac8b0cc81e",
       "authorisation": "Michael requested Instagram inclusion for all fourteen existing posts on 27 October 2026."
     },
-    "receipts": {}
+    "receipts": {
+      "D01-AM": {
+        "status": "pending",
+        "dueAt": "2026-10-28T07:00:00Z",
+        "channel_id": "6ae08d042f1f5ed648e92cc0",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D01-AM-TikTok-silent.mp4",
+        "scheduling_type": "automatic"
+      }
+    }
   }
 }
