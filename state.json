@@ -1909,7 +1909,23 @@
           "__typename": "LimitReachedError",
           "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
         },
-        "post_id": "6ae08f33a21f4739ba9bffcc"
+        "post_id": "6ae08f33a21f4739ba9bffcc",
+        "last_status": {
+          "id": "6ae08f33a21f4739ba9bffcc",
+          "status": "draft",
+          "channelId": "6ae08d042f1f5ed648e92cc0",
+          "text": "An activity can be a chance to spend time together as well as move.\n\nInvite a friend to swim, cycle, play a game or try a class with you. Agree something that suits both of you.\n\nYou don’t have to turn it into a competition.\n\nShare this with the person you’d invite.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-02T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D06-AM-TikTok-silent.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     }
   }
