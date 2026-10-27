@@ -152,7 +152,20 @@
         "status": "accepted",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/041f4bf46be3ab488ceafe326515bfa150da5089/PSFR-2026-10-27-AM-Facebook-music.mp4",
         "service": "facebook",
-        "post_id": "6ae020cea6170f32b1774c03"
+        "post_id": "6ae020cea6170f32b1774c03",
+        "last_status": {
+          "id": "6ae020cea6170f32b1774c03",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Getting up from a chair. Carrying your shopping. Taking the stairs.\n\nThese are reasons to build strength, too.\n\nTry a slow sit-to-stand: use a solid chair that won’t slide, keep your feet flat and stand up before lowering yourself back down with control. Use your hands for support if needed, and keep the movement comfortable.\n\nStrength work can help you stay capable in everyday life.\n\nWhat everyday task would you like to feel stronger doing? Tell us in the comments.\n\nFollow PSFR Health Systems for practical ways to build your fitness.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #Over40Fitness #StrengthTraining",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/041f4bf46be3ab488ceafe326515bfa150da5089/PSFR-2026-10-27-AM-Facebook-music.mp4"
+            }
+          ]
+        }
       }
     }
   }
