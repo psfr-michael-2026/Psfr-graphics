@@ -995,11 +995,12 @@
         "verified_scheduled": true
       },
       "D04-PM:tiktok": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6adac5fe778b240e2f96a871",
         "scheduling_type": "notification",
         "dueAt": "2026-10-31T19:00:00Z",
-        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D04-PM-TikTok-silent.mp4"
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D04-PM-TikTok-silent.mp4",
+        "post_id": "6ae06b054fc3aa0d97139471"
       }
     }
   }
