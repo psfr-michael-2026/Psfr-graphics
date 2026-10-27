@@ -1188,7 +1188,22 @@
         "scheduling_type": "notification",
         "dueAt": "2026-11-02T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D06-PM-TikTok-silent.mp4",
-        "post_id": "6ae06beebb05e7591204233b"
+        "post_id": "6ae06beebb05e7591204233b",
+        "last_status": {
+          "id": "6ae06beebb05e7591204233b",
+          "status": "draft",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "It’s easy to get absorbed in a busy day and forget to drink.\n\nKeep a drink handy and have fluids regularly. You may need more when you’re active or it’s hot.\n\nWater is a straightforward option; other drinks can contribute too.\n\nSave this as a reminder to make drinking part of your routine.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-02T19:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D06-PM-TikTok-silent.mp4"
+            }
+          ]
+        },
+        "verified_draft": true
       }
     }
   }
