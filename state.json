@@ -1039,6 +1039,13 @@
           ]
         },
         "verified_scheduled": true
+      },
+      "D05-AM:tiktok": {
+        "status": "pending",
+        "channel_id": "6adac5fe778b240e2f96a871",
+        "scheduling_type": "notification",
+        "dueAt": "2026-11-01T07:00:00Z",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D05-AM-TikTok-silent.mp4"
       }
     }
   }
