@@ -1,0 +1,37 @@
+name: PSFR approved week capacity handover
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/week-capacity.yml']
+  schedule:
+    - cron: '30 20 28,29,30 10 *'
+permissions:
+  contents: write
+concurrency:
+  group: psfr-graphics
+  cancel-in-progress: false
+jobs:
+  bank:
+    if: >-
+      github.event_name == 'schedule' || github.event.head_commit.message == 'PSFR: stage remaining approved week drafts'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name 'PSFR automation'
+          git config user.email 'psfr-automation@users.noreply.github.com'
+      - name: Stage or fill only this approved bank
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          PSFR_EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$PSFR_EVENT" = "push" ]; then
+            python week_capacity.py stage
+          else
+            python week_capacity.py fill
+          fi
