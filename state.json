@@ -1297,6 +1297,19 @@
         },
         "verified_draft": true
       }
+    },
+    "verification": {
+      "scheduled_posts": 20,
+      "verified_drafts": 8,
+      "live_delivery_verified": false,
+      "finite_bank_only": true
+    },
+    "capacity_fill": {
+      "window": "2026-10-28 through 2026-10-30",
+      "time": "20:30 Europe/London",
+      "existing_ids_only": true,
+      "no_new_content": true,
+      "enabled": true
     }
   }
 }
