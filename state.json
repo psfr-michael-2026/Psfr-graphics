@@ -145,7 +145,28 @@
       "headline": "Train for everyday strength.",
       "caption": "Getting up from a chair. Carrying your shopping. Taking the stairs.\n\nThese are reasons to build strength, too.\n\nTry a slow sit-to-stand: use a solid chair that won’t slide, keep your feet flat and stand up before lowering yourself back down with control. Use your hands for support if needed, and keep the movement comfortable.\n\nStrength work can help you stay capable in everyday life.\n\nWhat everyday task would you like to feel stronger doing? Tell us in the comments.\n\nFollow PSFR Health Systems for practical ways to build your fitness.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #Over40Fitness #StrengthTraining",
       "authorised_action": "draft-only",
-      "media_commit": "041f4bf46be3ab488ceafe326515bfa150da5089"
+      "media_commit": "041f4bf46be3ab488ceafe326515bfa150da5089",
+      "audio_policy": "silent-no-music",
+      "silent_assets": {
+        "Facebook": {
+          "path": "generated/PSFR-2026-10-27-AM-Facebook-silent.mp4",
+          "sha256": "ed338da82e16b8b446b10a0a30fea85ea5a8c90dbc4cddc4c82dcbeeac99aac0",
+          "dimensions": [
+            1440,
+            1800
+          ],
+          "audio_streams": 0
+        },
+        "TikTok": {
+          "path": "generated/PSFR-2026-10-27-AM-TikTok-silent.mp4",
+          "sha256": "e4a6271a35b06f8fc3b6a1082119634dbe59262499e4ef39d78756363dabccf2",
+          "dimensions": [
+            1080,
+            1920
+          ],
+          "audio_streams": 0
+        }
+      }
     },
     "receipts": {
       "6adac73f778b240e2f96b17b": {
