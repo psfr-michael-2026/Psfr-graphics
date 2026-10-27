@@ -1665,7 +1665,23 @@
         "channel_id": "6ae08d042f1f5ed648e92cc0",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D01-AM-TikTok-silent.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6ae08f0b16e4b99deda6ada1"
+        "post_id": "6ae08f0b16e4b99deda6ada1",
+        "last_status": {
+          "id": "6ae08f0b16e4b99deda6ada1",
+          "status": "scheduled",
+          "channelId": "6ae08d042f1f5ed648e92cc0",
+          "text": "Work, appointments and other people’s plans can fill the week before you notice.\n\nGive your own health a place in the diary too. Choose two realistic activity slots and decide what you’ll do in them.\n\nMake the plan fit the week you actually have.\n\nSave this and put your two slots in the diary today.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-28T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D01-AM-TikTok-silent.mp4"
+            }
+          ]
+        },
+        "verified_scheduled": true,
+        "verified_draft": false
       }
     }
   }
