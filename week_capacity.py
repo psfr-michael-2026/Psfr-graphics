@@ -66,5 +66,7 @@ def main(action):
  record['verification']={'scheduled_posts':scheduled,'verified_drafts':drafts,'live_delivery_verified':False,'finite_bank_only':True}
  record['capacity_fill']={'window':'2026-10-28 through 2026-10-30','time':'20:30 Europe/London','existing_ids_only':True,'no_new_content':True,'enabled':scheduled<28}
  save();assert scheduled+drafts==28
+ if action=='fill' and now.date().isoformat()=='2026-10-30' and scheduled<28:
+  raise RuntimeError('Final authorised capacity-fill attempt incomplete: inspect remaining draft IDs; no late publishing.')
  print('VERIFIED',scheduled,'scheduled;',drafts,'drafts; exact finite bank, no live delivery claim.')
 if __name__=='__main__':main(sys.argv[1])
