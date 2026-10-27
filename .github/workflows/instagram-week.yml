@@ -1,0 +1,37 @@
+name: PSFR approved Instagram week
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/instagram-week.yml']
+  schedule:
+    - cron: '30 20 28,29,30 10 *'
+permissions:
+  contents: write
+concurrency:
+  group: psfr-graphics
+  cancel-in-progress: false
+jobs:
+  instagram:
+    if: >-
+      github.event_name == 'schedule' || github.event.head_commit.message == 'PSFR: add Instagram to approved fourteen-post week'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name 'PSFR automation'
+          git config user.email 'psfr-automation@users.noreply.github.com'
+      - name: Add Instagram or fill remaining queue capacity
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          PSFR_EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$PSFR_EVENT" = "push" ]; then
+            python instagram_week.py stage
+          else
+            python instagram_week.py fill
+          fi
