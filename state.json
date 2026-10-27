@@ -269,31 +269,23 @@
         }
       },
       "6adfc03d2f1f5ed648df2866": {
-        "status": "accepted",
+        "status": "deleted",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/0cd5fcb5d090941c62ae7a9c346b57e8e67e2116/generated/PSFR-2026-10-27-AM-TikTok-silent.mp4",
         "service": "youtube",
         "post_id": "6ae020d9e322dad801213466",
         "last_status": {
           "id": "6ae020d9e322dad801213466",
-          "status": "draft",
           "channelId": "6adfc03d2f1f5ed648df2866",
-          "text": "Getting up from a chair. Carrying your shopping. Taking the stairs.\n\nThese are reasons to build strength, too.\n\nTry a slow sit-to-stand: use a solid chair that won’t slide, keep your feet flat and stand up before lowering yourself back down with control. Use your hands for support if needed, and keep the movement comfortable.\n\nStrength work can help you stay capable in everyday life.\n\nWhat everyday task would you like to feel stronger doing? Tell us in the comments.\n\nFollow PSFR Health Systems for practical ways to build your fitness.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #Over40Fitness #StrengthTraining",
-          "schedulingType": "automatic",
-          "assets": [
-            {
-              "mimeType": "video/mp4",
-              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/0cd5fcb5d090941c62ae7a9c346b57e8e67e2116/generated/PSFR-2026-10-27-AM-TikTok-silent.mp4"
-            }
-          ]
+          "status": "deleted"
         },
-        "verified_draft": true,
+        "verified_draft": false,
         "audio_update": {
           "status": "verified",
           "target_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/0cd5fcb5d090941c62ae7a9c346b57e8e67e2116/generated/PSFR-2026-10-27-AM-TikTok-silent.mp4",
           "audio_streams": 0
         },
         "deletion": {
-          "status": "pending",
+          "status": "deleted",
           "previous_status": {
             "id": "6ae020d9e322dad801213466",
             "channelId": "6adfc03d2f1f5ed648df2866",
@@ -301,6 +293,10 @@
             "schedulingType": "automatic",
             "notificationStatus": null,
             "externalLink": null
+          },
+          "response": {
+            "__typename": "DeletePostSuccess",
+            "id": "6ae020d9e322dad801213466"
           }
         }
       }
