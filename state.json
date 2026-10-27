@@ -1234,7 +1234,22 @@
         "scheduling_type": "notification",
         "dueAt": "2026-11-03T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D07-AM-TikTok-silent.mp4",
-        "post_id": "6ae06bf6bb05e759120425c3"
+        "post_id": "6ae06bf6bb05e759120425c3",
+        "last_status": {
+          "id": "6ae06bf6bb05e759120425c3",
+          "status": "draft",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "Being active doesn’t always mean putting on gym kit.\n\nGardening can get you moving. More demanding jobs, such as digging, can also work your muscles.\n\nChoose a task that suits your ability, use tools you can manage and take breaks as needed.\n\nWhich active hobby do you enjoy? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-03T07:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D07-AM-TikTok-silent.mp4"
+            }
+          ]
+        },
+        "verified_draft": true
       }
     }
   }
