@@ -251,6 +251,17 @@
               }
             ]
           }
+        },
+        "deletion": {
+          "status": "pending",
+          "previous_status": {
+            "id": "6ae020d305551cc3591ea201",
+            "channelId": "6adac5fe778b240e2f96a871",
+            "status": "sent",
+            "schedulingType": "notification",
+            "notificationStatus": "notified",
+            "externalLink": null
+          }
         }
       },
       "6adfc03d2f1f5ed648df2866": {
