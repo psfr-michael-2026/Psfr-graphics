@@ -1976,11 +1976,12 @@
         "verified_scheduled": false
       },
       "D07-PM": {
-        "status": "pending",
+        "status": "accepted",
         "dueAt": "2026-11-03T19:00:00Z",
         "channel_id": "6ae08d042f1f5ed648e92cc0",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D07-PM-TikTok-silent.mp4",
-        "scheduling_type": "automatic"
+        "scheduling_type": "automatic",
+        "post_id": "6ae08f3e16e4b99deda6b8f5"
       }
     }
   }
