@@ -1,0 +1,29 @@
+name: TikTok music handover test
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/tiktok-notification-handover.yml']
+permissions:
+  contents: write
+concurrency:
+  group: psfr-graphics
+  cancel-in-progress: false
+jobs:
+  handover:
+    if: >-
+      github.event.head_commit.message == 'PSFR: test TikTok notification handover once'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name 'PSFR automation'
+          git config user.email 'psfr-automation@users.noreply.github.com'
+      - name: Test one manual TikTok handover
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python tiktok_notification_handover.py
