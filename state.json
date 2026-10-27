@@ -1023,7 +1023,21 @@
         "scheduling_type": "automatic",
         "dueAt": "2026-11-01T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D05-AM-Facebook-silent.mp4",
-        "post_id": "6ae06b0a4fc3aa0d97139579"
+        "post_id": "6ae06b0a4fc3aa0d97139579",
+        "last_status": {
+          "id": "6ae06b0a4fc3aa0d97139579",
+          "status": "scheduled",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Long stretches at a desk can pass without much movement.\n\nUse a break to stand up, move around or do a task away from your chair, if you’re able to.\n\nIt’s a way to break up sitting; your planned exercise still has its place too.\n\nSave this as a reminder for your next working day.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-01T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D05-AM-Facebook-silent.mp4"
+            }
+          ]
+        }
       }
     }
   }
