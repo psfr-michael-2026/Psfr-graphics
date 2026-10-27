@@ -1110,7 +1110,7 @@
         "verified_scheduled": true
       },
       "D06-AM:facebook": {
-        "status": "pending-draft",
+        "status": "accepted",
         "channel_id": "6adac73f778b240e2f96b17b",
         "scheduling_type": "automatic",
         "dueAt": "2026-11-02T07:00:00Z",
@@ -1118,7 +1118,8 @@
         "capacity_rejection": {
           "__typename": "LimitReachedError",
           "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
-        }
+        },
+        "post_id": "6ae06be398379627cc31b75c"
       }
     }
   }
