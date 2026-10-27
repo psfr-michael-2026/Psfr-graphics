@@ -253,7 +253,7 @@
           }
         },
         "deletion": {
-          "status": "pending",
+          "status": "rejected",
           "previous_status": {
             "id": "6ae020d305551cc3591ea201",
             "channelId": "6adac5fe778b240e2f96a871",
@@ -261,6 +261,10 @@
             "schedulingType": "notification",
             "notificationStatus": "notified",
             "externalLink": null
+          },
+          "response": {
+            "__typename": "VoidMutationError",
+            "message": "Account is not allowed to perform this action on post"
           }
         }
       },
