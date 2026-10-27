@@ -747,7 +747,21 @@
         "scheduling_type": "automatic",
         "dueAt": "2026-10-29T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D02-AM-Facebook-silent.mp4",
-        "post_id": "6ae06ac84fc3aa0d9713883f"
+        "post_id": "6ae06ac84fc3aa0d9713883f",
+        "last_status": {
+          "id": "6ae06ac84fc3aa0d9713883f",
+          "status": "scheduled",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Fitness can fit into places you already go.\n\nTaking the stairs is one way to add movement to the day. Choose a comfortable pace, use the handrail if needed, and take the lift when that’s the better option for you.\n\nWhich everyday place gives you a chance to move more? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-29T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D02-AM-Facebook-silent.mp4"
+            }
+          ]
+        }
       }
     }
   }
