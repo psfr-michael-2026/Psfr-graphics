@@ -1069,7 +1069,21 @@
         "scheduling_type": "automatic",
         "dueAt": "2026-11-01T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D05-PM-Facebook-silent.mp4",
-        "post_id": "6ae06b16421e91122f786352"
+        "post_id": "6ae06b16421e91122f786352",
+        "last_status": {
+          "id": "6ae06b16421e91122f786352",
+          "status": "scheduled",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "You don’t have to change every meal to get more fibre into your day.\n\nWholemeal bread, oats, beans, lentils, fruit and vegetables can all help.\n\nStart with one food you eat regularly and look for a higher-fibre option. Increase fibre gradually and keep drinking fluids.\n\nSave this and choose one swap for your next shop.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-01T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D05-PM-Facebook-silent.mp4"
+            }
+          ]
+        }
       }
     }
   }
