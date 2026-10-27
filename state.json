@@ -1110,11 +1110,15 @@
         "verified_scheduled": true
       },
       "D06-AM:facebook": {
-        "status": "pending",
+        "status": "rejected",
         "channel_id": "6adac73f778b240e2f96b17b",
         "scheduling_type": "automatic",
         "dueAt": "2026-11-02T07:00:00Z",
-        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D06-AM-Facebook-silent.mp4"
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D06-AM-Facebook-silent.mp4",
+        "error": {
+          "__typename": "LimitReachedError",
+          "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+        }
       }
     }
   }
