@@ -954,7 +954,21 @@
         "scheduling_type": "notification",
         "dueAt": "2026-10-31T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D04-AM-TikTok-silent.mp4",
-        "post_id": "6ae06af959280f1cf449d56c"
+        "post_id": "6ae06af959280f1cf449d56c",
+        "last_status": {
+          "id": "6ae06af959280f1cf449d56c",
+          "status": "scheduled",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "Someone else’s speed is not your training plan.\n\nChoose a pace and distance that suit your current fitness. For moderate activity, you’ll usually be able to talk but not sing.\n\nBuild from your own starting point and pay attention to how you feel.\n\nShare this with someone who feels they have to keep up.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-10-31T07:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/49d1c4734741a5d459426cba89f64aac8b0cc81e/approved/week-01/PSFR-WEEK-D04-AM-TikTok-silent.mp4"
+            }
+          ]
+        }
       }
     }
   }
