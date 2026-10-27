@@ -187,7 +187,11 @@
             }
           ]
         },
-        "verified_draft": true
+        "verified_draft": true,
+        "audio_update": {
+          "status": "pending",
+          "target_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/0cd5fcb5d090941c62ae7a9c346b57e8e67e2116/generated/PSFR-2026-10-27-AM-Facebook-silent.mp4"
+        }
       },
       "6adac5fe778b240e2f96a871": {
         "status": "accepted",
