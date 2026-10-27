@@ -194,6 +194,17 @@
           "status": "verified",
           "target_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/0cd5fcb5d090941c62ae7a9c346b57e8e67e2116/generated/PSFR-2026-10-27-AM-Facebook-silent.mp4",
           "audio_streams": 0
+        },
+        "deletion": {
+          "status": "pending",
+          "previous_status": {
+            "id": "6ae020cea6170f32b1774c03",
+            "channelId": "6adac73f778b240e2f96b17b",
+            "status": "draft",
+            "schedulingType": "automatic",
+            "notificationStatus": null,
+            "externalLink": null
+          }
         }
       },
       "6adac5fe778b240e2f96a871": {
