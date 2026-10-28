@@ -2077,8 +2077,8 @@
       }
     },
     "verification": {
-      "scheduled_posts": 10,
-      "verified_drafts": 4,
+      "scheduled_posts": 12,
+      "verified_drafts": 2,
       "live_delivery_verified": false,
       "finite_bank_only": true
     },
