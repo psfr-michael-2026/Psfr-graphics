@@ -1351,8 +1351,8 @@
       }
     },
     "verification": {
-      "scheduled_posts": 20,
-      "verified_drafts": 8,
+      "scheduled_posts": 24,
+      "verified_drafts": 4,
       "live_delivery_verified": false,
       "finite_bank_only": true
     },
