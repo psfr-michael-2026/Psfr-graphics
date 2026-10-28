@@ -1977,7 +1977,11 @@
           ]
         },
         "verified_draft": true,
-        "verified_scheduled": false
+        "verified_scheduled": false,
+        "schedule_attempt": {
+          "status": "pending",
+          "attempted_at": "2026-10-28T21:13:47.832965+00:00"
+        }
       },
       "D06-PM": {
         "status": "accepted",
