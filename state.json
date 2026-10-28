@@ -1122,7 +1122,7 @@
         "post_id": "6ae06be398379627cc31b75c",
         "last_status": {
           "id": "6ae06be398379627cc31b75c",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac73f778b240e2f96b17b",
           "text": "An activity can be a chance to spend time together as well as move.\n\nInvite a friend to swim, cycle, play a game or try a class with you. Agree something that suits both of you.\n\nYou don’t have to turn it into a competition.\n\nShare this with the person you’d invite.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-02T07:00:00.000Z",
@@ -1134,11 +1134,12 @@
             }
           ]
         },
-        "verified_draft": true,
+        "verified_draft": false,
         "scheduling_attempt": {
           "status": "accepted",
           "attempted_at": "2026-10-28T21:10:21.039713+00:00"
-        }
+        },
+        "verified_scheduled": true
       },
       "D06-AM:tiktok": {
         "status": "accepted",
