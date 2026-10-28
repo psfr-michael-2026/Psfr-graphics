@@ -1308,7 +1308,11 @@
             }
           ]
         },
-        "verified_draft": true
+        "verified_draft": true,
+        "scheduling_attempt": {
+          "status": "pending",
+          "attempted_at": "2026-10-28T21:10:21.039713+00:00"
+        }
       },
       "D07-PM:tiktok": {
         "status": "accepted",
