@@ -1332,7 +1332,7 @@
         },
         "verified_draft": true,
         "scheduling_attempt": {
-          "status": "pending",
+          "status": "accepted",
           "attempted_at": "2026-10-29T21:11:43.504009+00:00"
         }
       }
