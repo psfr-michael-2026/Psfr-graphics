@@ -2008,7 +2008,7 @@
         "post_id": "6ae08f3a16e4b99deda6b813",
         "last_status": {
           "id": "6ae08f3a16e4b99deda6b813",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6ae08d042f1f5ed648e92cc0",
           "text": "Being active doesn’t always mean putting on gym kit.\n\nGardening can get you moving. More demanding jobs, such as digging, can also work your muscles.\n\nChoose a task that suits your ability, use tools you can manage and take breaks as needed.\n\nWhich active hobby do you enjoy? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-03T07:00:00.000Z",
@@ -2020,8 +2020,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "attempted_at": "2026-10-29T21:15:50.392647+00:00"
