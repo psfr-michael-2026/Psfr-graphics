@@ -1339,8 +1339,8 @@
       }
     },
     "verification": {
-      "scheduled_posts": 24,
-      "verified_drafts": 4,
+      "scheduled_posts": 28,
+      "verified_drafts": 0,
       "live_delivery_verified": false,
       "finite_bank_only": true
     },
@@ -1349,7 +1349,7 @@
       "time": "20:30 Europe/London",
       "existing_ids_only": true,
       "no_new_content": true,
-      "enabled": true
+      "enabled": false
     }
   },
   "2026-10-28-week-01-instagram": {
