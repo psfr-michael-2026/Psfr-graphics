@@ -1332,12 +1332,8 @@
         },
         "verified_draft": true,
         "scheduling_attempt": {
-          "status": "deferred-capacity",
-          "attempted_at": "2026-10-28T21:10:21.039713+00:00",
-          "result": {
-            "__typename": "LimitReachedError",
-            "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
-          }
+          "status": "pending",
+          "attempted_at": "2026-10-29T21:11:43.504009+00:00"
         }
       }
     },
