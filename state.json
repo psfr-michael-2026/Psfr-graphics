@@ -2057,8 +2057,8 @@
       }
     },
     "verification": {
-      "scheduled_posts": 12,
-      "verified_drafts": 2,
+      "scheduled_posts": 14,
+      "verified_drafts": 0,
       "live_delivery_verified": false,
       "finite_bank_only": true
     },
@@ -2066,7 +2066,7 @@
       "window": "2026-10-28 through 2026-10-30",
       "time": "20:30 Europe/London",
       "existing_ids_only": true,
-      "enabled": true
+      "enabled": false
     }
   }
 }
