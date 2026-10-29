@@ -1318,7 +1318,7 @@
         "post_id": "6ae06bff158d7a72af909be4",
         "last_status": {
           "id": "6ae06bff158d7a72af909be4",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac5fe778b240e2f96a871",
           "text": "Deciding what to eat is harder when you’re tired and the kitchen feels empty.\n\nBefore your next shop, choose one straightforward meal with vegetables, a protein food and a starchy food such as potatoes, rice or pasta.\n\nWrite down what you need. It gives you one less decision to make later.\n\nSave this for your next shopping list.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-03T19:00:00.000Z",
@@ -1330,11 +1330,12 @@
             }
           ]
         },
-        "verified_draft": true,
+        "verified_draft": false,
         "scheduling_attempt": {
           "status": "accepted",
           "attempted_at": "2026-10-29T21:11:43.504009+00:00"
-        }
+        },
+        "verified_scheduled": true
       }
     },
     "verification": {
