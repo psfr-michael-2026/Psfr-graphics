@@ -2168,7 +2168,7 @@
         "post_id": "6ae4e56e10a950f1373b42e1",
         "last_status": {
           "id": "6ae4e56e10a950f1373b42e1",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac5fe778b240e2f96a871",
           "text": "Your first press-up doesn’t have to start on the floor.\n\nA wall press-up is a manageable way to practise a pushing movement at home. It works your chest, triceps and the front of your shoulders.\n\nTry this:\n• Stand about an arm’s length from a clear wall, with your palms at chest height and fingers pointing up.\n• Keep your body straight and feet planted. Slowly bend your elbows to bring your chest towards the wall.\n• Press back with control, keeping your elbows comfortably near your sides. Keep breathing throughout.\n\nStart with five controlled repetitions in a comfortable range. Rest, and build up gradually as it gets easier. Stop if the movement hurts.\n\nYou can make a useful start at home with the space you already have.\n\nSave this for your next home workout. Which home exercise would you like us to break down next? Tell us below, and follow PSFR Health Systems for practical training tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
           "dueAt": "2026-11-04T07:00:00.000Z",
@@ -2180,8 +2180,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-10-30T18:43:47.662117+00:00"
