@@ -2,6 +2,7 @@
 import hashlib,json,subprocess,sys,urllib.request
 from datetime import datetime,timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from psfr import ROOT,STATE,buffer,discover_channels,read_json,write_json,persist
 from schedule_week import FIELDS,TAGS,verify_post
 from week_capacity import verify_draft
@@ -28,16 +29,17 @@ def request(p,cid,service,mode,url,pid=None,draft=True):
 
 def main(action):
     assert action in ['stage','fill']
-    manifest=read_json(MANIFEST);posts=manifest['posts'];now=datetime.now(timezone.utc)
-    # One-off approval: only the exact two reviewed packages; no ongoing generation.
-    assert {p['id'] for p in posts}=={'PSFR-20261030-HOME-PRESSUPS','PSFR-20261030-HOME-CALVES'}
-    assert now<datetime(2026,11,4,7,tzinfo=timezone.utc),'This one-off approval window has closed'
+    manifest=read_json(MANIFEST);now=datetime.now(timezone.utc)
+    # Only exact packages Michael has approved may enter the upload manifest.
+    # Drafting content or running this workflow does not itself grant approval.
+    posts=sorted(manifest['posts'],key=lambda p:p['dueAt'])
     assert manifest.get('hosting_approved') is True
     assert len({p['id'] for p in posts})==len(posts)
     for p in posts:
         assert p['approved'] is True and p.get('approved_on')
         assert {x for x in p['caption'].split() if x.startswith('#')}==TAGS and p['caption'].count('#')==5
-        assert stamp(p['dueAt']).hour in [7,19] and stamp(p['dueAt']).minute==0
+        local_due=stamp(p['dueAt']).astimezone(ZoneInfo('Europe/London'))
+        assert local_due.hour in [7,19] and local_due.minute==0 and local_due.second==0
         assert stamp(p['dueAt'])>=datetime(2026,11,4,tzinfo=timezone.utc)
     state=read_json(STATE,{})
     record=state.setdefault(KEY,{'posts':{},'receipts':{}})
@@ -59,6 +61,7 @@ def main(action):
         if existing:assert existing['content']==p,'Approved content changed; stop'
         else:
             assert action=='stage','Fill may not add a package'
+            assert p.get('approval_reference'),'New packages need a recorded explicit approval reference'
             # Check all saved bank and rolling entries for a conflicting reserved slot.
             for other_key,other in state.items():
                 if other_key==KEY:continue
