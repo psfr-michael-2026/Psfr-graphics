@@ -2226,6 +2226,13 @@
         },
         "verified_draft": true,
         "verified_scheduled": false
+      },
+      "PSFR-20261030-HOME-CALVES:tiktok": {
+        "status": "pending",
+        "channel_id": "6adac5fe778b240e2f96a871",
+        "dueAt": "2026-11-04T19:00:00Z",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6b8dd2499bc54ff8023b4e63f1cbf52f334518c7/approved/rolling/PSFR-20261030-Home-Calves-Vertical.mp4",
+        "scheduling_type": "notification"
       }
     }
   }
