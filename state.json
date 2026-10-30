@@ -2137,7 +2137,23 @@
         "dueAt": "2026-11-04T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6b8dd2499bc54ff8023b4e63f1cbf52f334518c7/approved/rolling/PSFR-20261030-Home-Pressups-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6ae4e56998505e7f522b1577"
+        "post_id": "6ae4e56998505e7f522b1577",
+        "last_status": {
+          "id": "6ae4e56998505e7f522b1577",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Your first press-up doesn’t have to start on the floor.\n\nA wall press-up is a manageable way to practise a pushing movement at home. It works your chest, triceps and the front of your shoulders.\n\nTry this:\n• Stand about an arm’s length from a clear wall, with your palms at chest height and fingers pointing up.\n• Keep your body straight and feet planted. Slowly bend your elbows to bring your chest towards the wall.\n• Press back with control, keeping your elbows comfortably near your sides. Keep breathing throughout.\n\nStart with five controlled repetitions in a comfortable range. Rest, and build up gradually as it gets easier. Stop if the movement hurts.\n\nYou can make a useful start at home with the space you already have.\n\nSave this for your next home workout. Which home exercise would you like us to break down next? Tell us below, and follow PSFR Health Systems for practical training tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+          "dueAt": "2026-11-04T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6b8dd2499bc54ff8023b4e63f1cbf52f334518c7/approved/rolling/PSFR-20261030-Home-Pressups-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     }
   }
