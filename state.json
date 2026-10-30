@@ -2301,19 +2301,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-10-30T18:53:27.274916+00:00",
+      "checked_at": "2026-10-30T19:55:27.960247+00:00",
       "counts": {
         "facebook": {
-          "scheduled": 1,
-          "drafts": 1
+          "scheduled": 2,
+          "drafts": 0
         },
         "tiktok": {
-          "scheduled": 1,
-          "drafts": 1
+          "scheduled": 2,
+          "drafts": 0
         },
         "instagram": {
-          "scheduled": 1,
-          "drafts": 1
+          "scheduled": 2,
+          "drafts": 0
         }
       },
       "live_delivery_verified": false
