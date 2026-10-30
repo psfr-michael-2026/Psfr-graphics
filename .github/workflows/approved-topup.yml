@@ -1,6 +1,11 @@
-name: PSFR upload two approved home posts once
+name: PSFR approved posts and queue refill
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['approved/rolling/manifest.json', '.github/workflows/approved-topup.yml']
+  schedule:
+    - cron: '17 * * * *'
 permissions:
   contents: write
 concurrency:
