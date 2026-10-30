@@ -1,0 +1,53 @@
+name: PSFR aggregate queue count
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/queue-count.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  count:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Read bank and report approved aggregate counts only
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from datetime import datetime, timezone
+          from psfr import buffer, read_json, STATE
+          def main():
+              state=read_json(STATE,{})
+              now=datetime.now(timezone.utc)
+              totals={}
+              banks=[('2026-10-28-week-01',None),('2026-10-28-week-01-instagram','instagram')]
+              for key,fixed_service in banks:
+                  for item,r in state[key]['receipts'].items():
+                      if not r.get('post_id'): continue
+                      service=fixed_service or item.rsplit(':',1)[-1]
+                      p=buffer('query {post(input:{id:'+json.dumps(r['post_id'])+'}) {status dueAt}}')['post']
+                      count=totals.setdefault(service,Counter())
+                      status=p['status']
+                      if status=='scheduled':
+                          due=datetime.fromisoformat(p['dueAt'].replace('Z','+00:00'))
+                          count['upcoming' if due>now else 'overdue_scheduled']+=1
+                      elif status in ['draft','sent','error','failed']:
+                          count[status]+=1
+                      else:
+                          count['other']+=1
+              for service,count in sorted(totals.items()):
+                  print('AGGREGATE_BANK_COUNT',service,json.dumps(dict(count)),flush=True)
+          try:
+              main()
+          except Exception:
+              raise SystemExit('Count unavailable; no private API response logged.') from None
+          PY
