@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": "PSFR-20261030-HOME-PRESSUPS",
+      "headline": "Press-ups can start at a wall.",
+      "caption": "Your first press-up doesn’t have to start on the floor.\n\nA wall press-up is a manageable way to practise a pushing movement at home. It works your chest, triceps and the front of your shoulders.\n\nTry this:\n• Stand about an arm’s length from a clear wall, with your palms at chest height and fingers pointing up.\n• Keep your body straight and feet planted. Slowly bend your elbows to bring your chest towards the wall.\n• Press back with control, keeping your elbows comfortably near your sides. Keep breathing throughout.\n\nStart with five controlled repetitions in a comfortable range. Rest, and build up gradually as it gets easier. Stop if the movement hurts.\n\nYou can make a useful start at home with the space you already have.\n\nSave this for your next home workout. Which home exercise would you like us to break down next? Tell us below, and follow PSFR Health Systems for practical training tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+      "dueAt": "2026-11-04T07:00:00Z",
+      "approved": true,
+      "approved_on": "2026-10-30",
+      "assets": {
+        "facebook": {
+          "path": "approved/rolling/PSFR-20261030-Home-Pressups-Facebook.mp4",
+          "sha256": "4c0b3af53197d41b7e45c0e1c5bff4c3cec32e60d030d444435ce0b150546e84",
+          "dimensions": [
+            1440,
+            1800
+          ]
+        },
+        "vertical": {
+          "path": "approved/rolling/PSFR-20261030-Home-Pressups-Vertical.mp4",
+          "sha256": "ca40a049e4f3d09ef9852b505512ac4a534ab7dac2c7f350af395a96e4dc2cfa",
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSFR-20261030-HOME-CALVES",
+      "headline": "Build strength in your calves.",
+      "caption": "Home training can include your calves, too.\n\nYou don’t need a calf machine to make a start. A standing calf raise works the muscles at the back of your lower legs.\n\nTry this:\n• Stand tall with your feet hip-width apart and hold a solid kitchen worktop or another sturdy support.\n• Slowly lift both heels, rising onto the balls of your feet as far as feels comfortable.\n• Lower your heels with control. Keep breathing and avoid bouncing.\n\nStart with five slow repetitions. Rest and build up gradually. Keep the support if it helps you feel steady, and stop if the movement hurts.\n\nA manageable home session can work different muscles across the week. Small movements still deserve good technique.\n\nSave this for your next home workout, and share it with someone who trains at home. What would you like to work on next? Tell us below and follow PSFR Health Systems for more practical ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+      "dueAt": "2026-11-04T19:00:00Z",
+      "approved": true,
+      "approved_on": "2026-10-30",
+      "assets": {
+        "facebook": {
+          "path": "approved/rolling/PSFR-20261030-Home-Calves-Facebook.mp4",
+          "sha256": "a67d10f729f5b33657683679398fae45b4f1eaeb7a02e0302b2e448481377efa",
+          "dimensions": [
+            1440,
+            1800
+          ]
+        },
+        "vertical": {
+          "path": "approved/rolling/PSFR-20261030-Home-Calves-Vertical.mp4",
+          "sha256": "d505321e6f5f0a288a57b99a2c931f03457d859bf4cf8c41c614716f25e0407f",
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
+    }
+  ],
+  "hosting_approved": true,
+  "approved_on": "2026-10-30"
+}
