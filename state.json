@@ -2257,7 +2257,23 @@
         "dueAt": "2026-11-04T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6b8dd2499bc54ff8023b4e63f1cbf52f334518c7/approved/rolling/PSFR-20261030-Home-Calves-Vertical.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6ae4e58098505e7f522b1dfd"
+        "post_id": "6ae4e58098505e7f522b1dfd",
+        "last_status": {
+          "id": "6ae4e58098505e7f522b1dfd",
+          "status": "draft",
+          "channelId": "6ae08d042f1f5ed648e92cc0",
+          "text": "Home training can include your calves, too.\n\nYou don’t need a calf machine to make a start. A standing calf raise works the muscles at the back of your lower legs.\n\nTry this:\n• Stand tall with your feet hip-width apart and hold a solid kitchen worktop or another sturdy support.\n• Slowly lift both heels, rising onto the balls of your feet as far as feels comfortable.\n• Lower your heels with control. Keep breathing and avoid bouncing.\n\nStart with five slow repetitions. Rest and build up gradually. Keep the support if it helps you feel steady, and stop if the movement hurts.\n\nA manageable home session can work different muscles across the week. Small movements still deserve good technique.\n\nSave this for your next home workout, and share it with someone who trains at home. What would you like to work on next? Tell us below and follow PSFR Health Systems for more practical ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+          "dueAt": "2026-11-04T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6b8dd2499bc54ff8023b4e63f1cbf52f334518c7/approved/rolling/PSFR-20261030-Home-Calves-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     }
   }
