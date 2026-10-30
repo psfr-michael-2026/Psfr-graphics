@@ -2181,7 +2181,11 @@
           ]
         },
         "verified_draft": true,
-        "verified_scheduled": false
+        "verified_scheduled": false,
+        "schedule_attempt": {
+          "status": "pending",
+          "at": "2026-10-30T18:43:47.662117+00:00"
+        }
       },
       "PSFR-20261030-HOME-PRESSUPS:instagram": {
         "status": "accepted",
