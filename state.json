@@ -2183,7 +2183,7 @@
         "verified_draft": true,
         "verified_scheduled": false,
         "schedule_attempt": {
-          "status": "pending",
+          "status": "accepted",
           "at": "2026-10-30T18:43:47.662117+00:00"
         }
       },
