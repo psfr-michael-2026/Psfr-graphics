@@ -2180,11 +2180,12 @@
         "verified_scheduled": false
       },
       "PSFR-20261030-HOME-PRESSUPS:instagram": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6ae08d042f1f5ed648e92cc0",
         "dueAt": "2026-11-04T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/6b8dd2499bc54ff8023b4e63f1cbf52f334518c7/approved/rolling/PSFR-20261030-Home-Pressups-Vertical.mp4",
-        "scheduling_type": "automatic"
+        "scheduling_type": "automatic",
+        "post_id": "6ae4e572a351214acfa2e008"
       }
     }
   }
