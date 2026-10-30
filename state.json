@@ -2311,6 +2311,24 @@
           }
         }
       }
+    },
+    "verification": {
+      "checked_at": "2026-10-30T18:43:47.662117+00:00",
+      "counts": {
+        "facebook": {
+          "scheduled": 1,
+          "drafts": 1
+        },
+        "tiktok": {
+          "scheduled": 1,
+          "drafts": 1
+        },
+        "instagram": {
+          "scheduled": 1,
+          "drafts": 1
+        }
+      },
+      "live_delivery_verified": false
     }
   }
 }
