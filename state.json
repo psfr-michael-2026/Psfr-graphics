@@ -2381,12 +2381,8 @@
         "verified_draft": true,
         "verified_scheduled": false,
         "schedule_attempt": {
-          "status": "deferred-capacity",
-          "at": "2026-10-31T06:59:26.516024+00:00",
-          "response": {
-            "__typename": "LimitReachedError",
-            "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
-          }
+          "status": "pending",
+          "at": "2026-10-31T07:57:55.972897+00:00"
         }
       },
       "PSFR-20261031-AM-CAFFEINE-TIMING:instagram": {
