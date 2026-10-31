@@ -2444,11 +2444,12 @@
         }
       },
       "PSFR-20261031-PM-SLEEP-SPACE:facebook": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6adac73f778b240e2f96b17b",
         "dueAt": "2026-11-05T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/8ebe8b4736c01db0adc3e3126aafa43fd6fb1c6c/approved/rolling/PSFR-20261031-PM-SLEEP-SPACE-Facebook.mp4",
-        "scheduling_type": "automatic"
+        "scheduling_type": "automatic",
+        "post_id": "6ae62f75ab019b9087199945"
       }
     },
     "verification": {
