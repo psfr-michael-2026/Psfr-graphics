@@ -2427,19 +2427,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-10-30T19:55:27.960247+00:00",
+      "checked_at": "2026-10-31T06:19:28.268339+00:00",
       "counts": {
         "facebook": {
           "scheduled": 2,
-          "drafts": 0
+          "drafts": 1
         },
         "tiktok": {
           "scheduled": 2,
-          "drafts": 0
+          "drafts": 1
         },
         "instagram": {
           "scheduled": 2,
-          "drafts": 0
+          "drafts": 1
         }
       },
       "live_delivery_verified": false
