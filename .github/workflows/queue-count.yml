@@ -29,7 +29,7 @@ jobs:
               state=read_json(STATE,{})
               now=datetime.now(timezone.utc)
               totals={}
-              banks=[('2026-10-28-week-01',None),('2026-10-28-week-01-instagram','instagram')]
+              banks=[('2026-10-28-week-01',None),('2026-10-28-week-01-instagram','instagram'),('approved-rolling-posts-v1',None)]
               for key,fixed_service in banks:
                   for item,r in state[key]['receipts'].items():
                       if not r.get('post_id'): continue
