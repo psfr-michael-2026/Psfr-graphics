@@ -51,3 +51,5 @@ jobs:
           except Exception:
               raise SystemExit('Count unavailable; no private API response logged.') from None
           PY
+
+# Read-only aggregate refresh requested 2026-10-31 evening.
