@@ -51,6 +51,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "PSFR-20261031-AM-CAFFEINE-TIMING",
+      "headline": "Training late? Check your caffeine timing.",
+      "caption": "Training late? Give your caffeine a cut-off time.\n\nCoffee, tea and caffeinated pre-workouts can keep you awake when you want to sleep. A useful starting point is to leave at least six hours between your last caffeine and your planned bedtime. You may need longer if you are sensitive to it.\n\nFor example: planning to sleep at 9pm? Finish caffeine by 3pm, or earlier if it affects your sleep.\n\nBefore your next late session, check the caffeine on your drink or pre-workout label and work backwards from bedtime. Choose a caffeine-free drink later in the day.\n\nMake the timing fit your sleep schedule, including on shifts.\n\nSave this for your next late training session. What time is your last coffee? Tell us below and follow PSFR Health Systems for practical fitness, fuel and recovery tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+      "dueAt": "2026-11-05T07:00:00Z",
+      "approved": true,
+      "approved_on": "2026-10-31",
+      "approval_reference": "Michael approved exact package: \"Yeah, schedule that. Thank you\"; explicitly approved public PSFR GitHub video hosting and Buffer scheduling: \"Yes\" (31 October 2026).",
+      "assets": {
+        "facebook": {
+          "path": "approved/rolling/PSFR-20261031-AM-CAFFEINE-TIMING-Facebook.mp4",
+          "sha256": "8e515bd7c89248a0f96440dd6800a3498c218e5d67b17927da4f84d1d70b07b1",
+          "dimensions": [
+            1440,
+            1800
+          ]
+        },
+        "vertical": {
+          "path": "approved/rolling/PSFR-20261031-AM-CAFFEINE-TIMING-Vertical.mp4",
+          "sha256": "da79f81b504774e426a1acc321c1fefb7be242bb0c7ecd89c9bb846a67b0a17c",
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
     }
   ],
   "hosting_approved": true,
