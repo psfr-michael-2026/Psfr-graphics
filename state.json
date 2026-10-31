@@ -2383,7 +2383,23 @@
         "dueAt": "2026-11-05T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/2375549ca960209a4c1aa10912a4b9cfc5c64ff7/approved/rolling/PSFR-20261031-AM-CAFFEINE-TIMING-Vertical.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6ae5887beaa24d6f9a5bf344"
+        "post_id": "6ae5887beaa24d6f9a5bf344",
+        "last_status": {
+          "id": "6ae5887beaa24d6f9a5bf344",
+          "status": "draft",
+          "channelId": "6ae08d042f1f5ed648e92cc0",
+          "text": "Training late? Give your caffeine a cut-off time.\n\nCoffee, tea and caffeinated pre-workouts can keep you awake when you want to sleep. A useful starting point is to leave at least six hours between your last caffeine and your planned bedtime. You may need longer if you are sensitive to it.\n\nFor example: planning to sleep at 9pm? Finish caffeine by 3pm, or earlier if it affects your sleep.\n\nBefore your next late session, check the caffeine on your drink or pre-workout label and work backwards from bedtime. Choose a caffeine-free drink later in the day.\n\nMake the timing fit your sleep schedule, including on shifts.\n\nSave this for your next late training session. What time is your last coffee? Tell us below and follow PSFR Health Systems for practical fitness, fuel and recovery tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+          "dueAt": "2026-11-05T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/2375549ca960209a4c1aa10912a4b9cfc5c64ff7/approved/rolling/PSFR-20261031-AM-CAFFEINE-TIMING-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
