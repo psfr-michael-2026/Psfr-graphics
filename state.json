@@ -2415,19 +2415,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-10-31T06:59:26.516024+00:00",
+      "checked_at": "2026-10-31T07:57:55.972897+00:00",
       "counts": {
         "facebook": {
-          "scheduled": 2,
-          "drafts": 1
+          "scheduled": 3,
+          "drafts": 0
         },
         "tiktok": {
-          "scheduled": 2,
-          "drafts": 1
+          "scheduled": 3,
+          "drafts": 0
         },
         "instagram": {
-          "scheduled": 2,
-          "drafts": 1
+          "scheduled": 3,
+          "drafts": 0
         }
       },
       "live_delivery_verified": false
