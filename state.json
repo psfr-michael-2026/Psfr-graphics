@@ -2541,19 +2541,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-10-31T07:57:55.972897+00:00",
+      "checked_at": "2026-10-31T18:12:01.182143+00:00",
       "counts": {
         "facebook": {
           "scheduled": 3,
-          "drafts": 0
+          "drafts": 1
         },
         "tiktok": {
           "scheduled": 3,
-          "drafts": 0
+          "drafts": 1
         },
         "instagram": {
           "scheduled": 3,
-          "drafts": 0
+          "drafts": 1
         }
       },
       "live_delivery_verified": false
