@@ -2529,7 +2529,11 @@
           ]
         },
         "verified_draft": true,
-        "verified_scheduled": false
+        "verified_scheduled": false,
+        "schedule_attempt": {
+          "status": "pending",
+          "at": "2026-10-31T18:12:01.182143+00:00"
+        }
       }
     },
     "verification": {
