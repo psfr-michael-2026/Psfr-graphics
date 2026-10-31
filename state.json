@@ -2352,6 +2352,13 @@
         },
         "verified_draft": true,
         "verified_scheduled": false
+      },
+      "PSFR-20261031-AM-CAFFEINE-TIMING:tiktok": {
+        "status": "pending",
+        "channel_id": "6adac5fe778b240e2f96a871",
+        "dueAt": "2026-11-05T07:00:00Z",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/2375549ca960209a4c1aa10912a4b9cfc5c64ff7/approved/rolling/PSFR-20261031-AM-CAFFEINE-TIMING-Vertical.mp4",
+        "scheduling_type": "notification"
       }
     },
     "verification": {
