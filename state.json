@@ -2497,7 +2497,23 @@
         "dueAt": "2026-11-05T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/8ebe8b4736c01db0adc3e3126aafa43fd6fb1c6c/approved/rolling/PSFR-20261031-PM-SLEEP-SPACE-Vertical.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6ae62f7c21c807e9d57a92aa"
+        "post_id": "6ae62f7c21c807e9d57a92aa",
+        "last_status": {
+          "id": "6ae62f7c21c807e9d57a92aa",
+          "status": "draft",
+          "channelId": "6ae08d042f1f5ed648e92cc0",
+          "text": "Make your room ready for sleep.\n\nBefore your next sleep, check three things: light, noise and comfort. A dark, quiet, comfortably cool room may make it easier to sleep.\n\nLight leaking around the curtains? Close the gap, or use an eye mask you already have. Reduce avoidable noise and adjust your bedding if you feel too warm. Aim for comfortable, rather than cold.\n\nPick just one thing to change tonight. You can work with the space and things you already have.\n\nOn shifts? Use the same check whenever your main sleep happens, including during daylight.\n\nSave this for your next sleep and follow PSFR Health Systems for practical fitness, fuel and recovery tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+          "dueAt": "2026-11-05T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/8ebe8b4736c01db0adc3e3126aafa43fd6fb1c6c/approved/rolling/PSFR-20261031-PM-SLEEP-SPACE-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
