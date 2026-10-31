@@ -2466,6 +2466,13 @@
         },
         "verified_draft": true,
         "verified_scheduled": false
+      },
+      "PSFR-20261031-PM-SLEEP-SPACE:tiktok": {
+        "status": "pending",
+        "channel_id": "6adac5fe778b240e2f96a871",
+        "dueAt": "2026-11-05T19:00:00Z",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/8ebe8b4736c01db0adc3e3126aafa43fd6fb1c6c/approved/rolling/PSFR-20261031-PM-SLEEP-SPACE-Vertical.mp4",
+        "scheduling_type": "notification"
       }
     },
     "verification": {
