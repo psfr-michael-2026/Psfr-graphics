@@ -2328,6 +2328,13 @@
           "status": "accepted",
           "at": "2026-10-30T19:55:27.960247+00:00"
         }
+      },
+      "PSFR-20261031-AM-CAFFEINE-TIMING:facebook": {
+        "status": "pending",
+        "channel_id": "6adac73f778b240e2f96b17b",
+        "dueAt": "2026-11-05T07:00:00Z",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/2375549ca960209a4c1aa10912a4b9cfc5c64ff7/approved/rolling/PSFR-20261031-AM-CAFFEINE-TIMING-Facebook.mp4",
+        "scheduling_type": "automatic"
       }
     },
     "verification": {
