@@ -78,6 +78,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "PSFR-20261031-PM-SLEEP-SPACE",
+      "headline": "Make your room ready for sleep.",
+      "caption": "Make your room ready for sleep.\n\nBefore your next sleep, check three things: light, noise and comfort. A dark, quiet, comfortably cool room may make it easier to sleep.\n\nLight leaking around the curtains? Close the gap, or use an eye mask you already have. Reduce avoidable noise and adjust your bedding if you feel too warm. Aim for comfortable, rather than cold.\n\nPick just one thing to change tonight. You can work with the space and things you already have.\n\nOn shifts? Use the same check whenever your main sleep happens, including during daylight.\n\nSave this for your next sleep and follow PSFR Health Systems for practical fitness, fuel and recovery tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+      "dueAt": "2026-11-05T19:00:00Z",
+      "approved": true,
+      "approved_on": "2026-10-31",
+      "approval_reference": "Michael: Go ahead (exact sleep package); then explicit approval: I approve publicly hosting both sleep-post videos in psfr-michael-2026/Psfr-graphics and uploading them to Buffer for 5 November at 7pm.",
+      "assets": {
+        "facebook": {
+          "path": "approved/rolling/PSFR-20261031-PM-SLEEP-SPACE-Facebook.mp4",
+          "sha256": "05acea02c0c004f38a986bfacacf7635fc95a9e7b93dc21b867d1ee6fe2dd416",
+          "dimensions": [
+            1440,
+            1800
+          ]
+        },
+        "vertical": {
+          "path": "approved/rolling/PSFR-20261031-PM-SLEEP-SPACE-Vertical.mp4",
+          "sha256": "557f23f53f570fec9f39f3a8a0a261fb436ae2a8b79a1af790dd5e713e1cfc12",
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
     }
   ],
   "hosting_approved": true,
