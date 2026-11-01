@@ -2736,7 +2736,7 @@
         "post_id": "6ae7adb2902c3fb1debade28",
         "last_status": {
           "id": "6ae7adb2902c3fb1debade28",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6ae08d042f1f5ed648e92cc0",
           "text": "Magnesium has a place in your meals, too.\n\nYour body uses this mineral for normal muscle and nerve function. Everyday foods including oats, beans, spinach, nuts and pumpkin seeds can contribute to your intake.\n\nTry this: add a spoon of pumpkin seeds to your usual porridge. It is one simple way to include another magnesium-containing food in a meal you already make.\n\nKeep variety across the day — one topping is a contribution, rather than your whole day's requirement.\n\nSave these food ideas for your next shop and follow PSFR Health Systems for practical fitness, fuel and recovery tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
           "dueAt": "2026-11-06T19:00:00.000Z",
@@ -2748,8 +2748,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-01T21:22:36.859420+00:00"
