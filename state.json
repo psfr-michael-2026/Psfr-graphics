@@ -2617,7 +2617,23 @@
         "dueAt": "2026-11-06T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/d34a2a6a9062d28c0e59c24bd56a53ebef9dfb2f/approved/rolling/PSFR-20261101-AM-VITAMIN-D-LABEL-Vertical.mp4",
         "scheduling_type": "notification",
-        "post_id": "6ae7ada401fa08ffbe6a22ca"
+        "post_id": "6ae7ada401fa08ffbe6a22ca",
+        "last_status": {
+          "id": "6ae7ada401fa08ffbe6a22ca",
+          "status": "draft",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "Vitamin D: a useful winter label check.\n\nVitamin D helps keep bones and muscles healthy. During autumn and winter, NHS advice is to consider a daily supplement containing 10 micrograms (400 IU), because UK sunlight is not strong enough and food alone can make it difficult to get enough.\n\nYour practical check: read the amount per daily serving. Labels may say mcg, µg or IU — 10 micrograms is the same as 400 IU.\n\nAlready taking a multivitamin? Count the vitamin D it contains before adding another supplement. If you have a prescribed dose, follow that plan.\n\nSave this for your next label check and share it with someone sorting their winter routine.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+          "dueAt": "2026-11-06T07:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/d34a2a6a9062d28c0e59c24bd56a53ebef9dfb2f/approved/rolling/PSFR-20261101-AM-VITAMIN-D-LABEL-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
