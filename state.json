@@ -2757,18 +2757,18 @@
       }
     },
     "verification": {
-      "checked_at": "2026-10-31T19:45:12.578030+00:00",
+      "checked_at": "2026-11-01T21:22:36.859420+00:00",
       "counts": {
         "facebook": {
-          "scheduled": 4,
+          "scheduled": 6,
           "drafts": 0
         },
         "tiktok": {
-          "scheduled": 4,
+          "scheduled": 6,
           "drafts": 0
         },
         "instagram": {
-          "scheduled": 4,
+          "scheduled": 6,
           "drafts": 0
         }
       },
