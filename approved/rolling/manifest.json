@@ -105,6 +105,60 @@
           ]
         }
       }
+    },
+    {
+      "id": "PSFR-20261101-AM-VITAMIN-D-LABEL",
+      "headline": "Vitamin D: a winter check.",
+      "caption": "Vitamin D: a useful winter label check.\n\nVitamin D helps keep bones and muscles healthy. During autumn and winter, NHS advice is to consider a daily supplement containing 10 micrograms (400 IU), because UK sunlight is not strong enough and food alone can make it difficult to get enough.\n\nYour practical check: read the amount per daily serving. Labels may say mcg, µg or IU — 10 micrograms is the same as 400 IU.\n\nAlready taking a multivitamin? Count the vitamin D it contains before adding another supplement. If you have a prescribed dose, follow that plan.\n\nSave this for your next label check and share it with someone sorting their winter routine.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+      "dueAt": "2026-11-06T07:00:00Z",
+      "approved": true,
+      "approved_on": "2026-11-01",
+      "approval_reference": "Michael: \"Okay, upload them please\" after review links to the 1 November vitamin D morning and magnesium evening packages; standing approved public-media hosting and Buffer upload workflow.",
+      "assets": {
+        "facebook": {
+          "path": "approved/rolling/PSFR-20261101-AM-VITAMIN-D-LABEL-Facebook.mp4",
+          "sha256": "d3f564a6f496996d8e7edd1cfccd9fa1f912a50e15b31897abe2274a64806161",
+          "dimensions": [
+            1440,
+            1800
+          ]
+        },
+        "vertical": {
+          "path": "approved/rolling/PSFR-20261101-AM-VITAMIN-D-LABEL-Vertical.mp4",
+          "sha256": "a9b1fa35094f2fee446d67b7fb5ae2cb36f6978caac6a466582b70e5dc0bafa9",
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSFR-20261101-PM-MAGNESIUM-FOODS",
+      "headline": "Magnesium: everyday foods.",
+      "caption": "Magnesium has a place in your meals, too.\n\nYour body uses this mineral for normal muscle and nerve function. Everyday foods including oats, beans, spinach, nuts and pumpkin seeds can contribute to your intake.\n\nTry this: add a spoon of pumpkin seeds to your usual porridge. It is one simple way to include another magnesium-containing food in a meal you already make.\n\nKeep variety across the day — one topping is a contribution, rather than your whole day's requirement.\n\nSave these food ideas for your next shop and follow PSFR Health Systems for practical fitness, fuel and recovery tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+      "dueAt": "2026-11-06T19:00:00Z",
+      "approved": true,
+      "approved_on": "2026-11-01",
+      "approval_reference": "Michael: \"Okay, upload them please\" after review links to the 1 November vitamin D morning and magnesium evening packages; standing approved public-media hosting and Buffer upload workflow.",
+      "assets": {
+        "facebook": {
+          "path": "approved/rolling/PSFR-20261101-PM-MAGNESIUM-FOODS-Facebook.mp4",
+          "sha256": "5cc8c6fbe7da9fb462dbcd8b0f49dfac6515ca09dc690f9dd4fc04eb1cb00451",
+          "dimensions": [
+            1440,
+            1800
+          ]
+        },
+        "vertical": {
+          "path": "approved/rolling/PSFR-20261101-PM-MAGNESIUM-FOODS-Vertical.mp4",
+          "sha256": "73eaf99472ddb501726543537d122964c1b3152bc5d7d02fa12c77ce26b803ac",
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
     }
   ],
   "hosting_approved": true,
