@@ -2660,11 +2660,12 @@
         "verified_scheduled": false
       },
       "PSFR-20261101-PM-MAGNESIUM-FOODS:facebook": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6adac73f778b240e2f96b17b",
         "dueAt": "2026-11-06T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/d34a2a6a9062d28c0e59c24bd56a53ebef9dfb2f/approved/rolling/PSFR-20261101-PM-MAGNESIUM-FOODS-Facebook.mp4",
-        "scheduling_type": "automatic"
+        "scheduling_type": "automatic",
+        "post_id": "6ae7adab779ee9f13cb77bd6"
       }
     },
     "verification": {
