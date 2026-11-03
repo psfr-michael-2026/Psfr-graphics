@@ -37,7 +37,6 @@ jobs:
                       p=buffer('query {post(input:{id:'+json.dumps(r['post_id'])+'}) {status dueAt schedulingType notificationStatus externalLink}}')['post']
                       count=totals.setdefault(service,Counter())
                       status=p['status']
-                      if p.get('dueAt','').startswith('2026-11-03'): print('TODAY_STATUS',service,json.dumps(p),flush=True)
                       if status=='scheduled':
                           due=datetime.fromisoformat(p['dueAt'].replace('Z','+00:00'))
                           count['upcoming' if due>now else 'overdue_scheduled']+=1
@@ -45,9 +44,6 @@ jobs:
                           count[status]+=1
                       else:
                           count['other']+=1
-              for cid,service in [('6adac73f778b240e2f96b17b','facebook'),('6adac5fe778b240e2f96a871','tiktok'),('6ae08d042f1f5ed648e92cc0','instagram')]:
-                  flags=buffer('query {channel(input:{id:'+json.dumps(cid)+'}) {isDisconnected isLocked isQueuePaused hasActiveMemberDevice}}')['channel']
-                  print('CHANNEL_FLAGS',service,json.dumps(flags),flush=True)
               for service,count in sorted(totals.items()):
                   print('AGGREGATE_BANK_COUNT',service,json.dumps(dict(count)),flush=True)
           try:
@@ -71,3 +67,5 @@ jobs:
 # Read-only investigation requested by Michael 2026-11-03 afternoon.
 
 # Verify approved immediate post final platform links.
+
+# Refresh aggregate queue totals for continuous coverage, 3 November 2026.
