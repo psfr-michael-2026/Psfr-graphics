@@ -2824,13 +2824,15 @@
         }
       },
       "instagram": {
-        "status": "rejected",
-        "channel_id": "6ae08d042f1f5ed648e92cc0",
-        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/65cf6fc5e3464906982305a542d205cf963effcc/approved/rolling/PSFR-20261103-HEAVY-OR-REPS-Vertical.mp4",
-        "scheduling_type": "automatic",
-        "response": {
-          "__typename": "InvalidInputError",
-          "message": "Invalid post: Video frame rate must be at least 23 fps for Instagram Reels."
+        "previous_rejection": {
+          "status": "rejected",
+          "channel_id": "6ae08d042f1f5ed648e92cc0",
+          "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/65cf6fc5e3464906982305a542d205cf963effcc/approved/rolling/PSFR-20261103-HEAVY-OR-REPS-Vertical.mp4",
+          "scheduling_type": "automatic",
+          "response": {
+            "__typename": "InvalidInputError",
+            "message": "Invalid post: Video frame rate must be at least 23 fps for Instagram Reels."
+          }
         }
       }
     }
