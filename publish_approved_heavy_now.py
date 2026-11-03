@@ -1,7 +1,8 @@
 """Publish only Michael's exact approved weights post now, once per channel."""
-import json,hashlib,urllib.request
+import json,hashlib,urllib.request,subprocess
 from datetime import datetime,timezone
 from psfr import buffer,read_json,write_json,STATE,persist
+IG_COMMIT=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
 KEY='PSFR-20261103-HEAVY-OR-REPS-PUBLISH-NOW'
 CAPTION="HEAVIER WEIGHTS OR MORE REPS AS YOU GET OLDER?\n\nBoth have a place.\n\nHeavier weights with fewer reps generally produce greater gains in maximal strength. Lighter weights with more reps can also build muscle—but those sets still need enough effort.\n\nWhat about your joints?\n\nThere isn’t one rep range that protects everyone’s joints. Choose exercises and weights you can control, build gradually and adjust if a movement causes joint pain. Simply doing more repetitions doesn’t automatically make an exercise kinder to your joints.\n\nA practical starting point is a weight you can lift for 8–12 controlled reps, finishing while you could still manage another couple with good technique. It’s a starting point, rather than a rule for every exercise.\n\nGetting older doesn’t mean you have to stop getting stronger.\n\nSave this for your next session. Which feels better for you: heavier sets or more reps? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym"
 COMMIT="65cf6fc5e3464906982305a542d205cf963effcc"
@@ -16,11 +17,18 @@ def main():
  def save():write_json(STATE,state);persist('PSFR: save approved immediate weights-post receipt')
  for cid,service,mode,layout,sha in TARGETS:
   url='https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/'+COMMIT+'/approved/rolling/PSFR-20261103-HEAVY-OR-REPS-'+layout+'.mp4'
+  if service=='instagram':
+   url='https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/'+IG_COMMIT+'/approved/rolling/PSFR-20261103-HEAVY-OR-REPS-Vertical-25fps.mp4'
+   sha='6c88ebe370eeaf4118f7f792dcc2594cb56410ddbc63b49902085265b8b8ba4e'
   with urllib.request.urlopen(url,timeout=60) as res:assert hashlib.sha256(res.read()).hexdigest()==sha
   flags=buffer('query {channel(input:{id:'+json.dumps(cid)+'}) {isDisconnected isLocked isQueuePaused hasActiveMemberDevice}}')['channel']
   assert not any(flags[k] for k in ['isDisconnected','isLocked','isQueuePaused'])
   if mode=='notification':assert flags['hasActiveMemberDevice']
   r=rec['receipts'].setdefault(service,{})
+  if service=='instagram' and r.get('status')=='rejected' and not r.get('post_id'):
+   assert r.get('response',{}).get('__typename')=='InvalidInputError'
+   assert 'frame rate' in r.get('response',{}).get('message','')
+   previous=dict(r);r.clear();r['previous_rejection']=previous;save()
   if not r.get('post_id'):
    assert not r.get('status'),'Uncertain previous create; reconcile before retry'
    r.update(status='pending',channel_id=cid,video_url=url,scheduling_type=mode);save()

@@ -24,7 +24,8 @@ jobs:
       - run: |
           git config user.name 'PSFR automation'
           git config user.email 'psfr-automation@users.noreply.github.com'
-      - name: Publish only the explicitly approved weights post immediately
+      - name: Publish exact approved weights post; reuse successful receipts
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: python publish_approved_heavy_now.py
+# Corrected Instagram frame rate; rejected input created no Instagram post.
