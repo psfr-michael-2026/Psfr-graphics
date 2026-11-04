@@ -37,6 +37,8 @@ jobs:
                       p=buffer('query {post(input:{id:'+json.dumps(r['post_id'])+'}) {status dueAt schedulingType notificationStatus externalLink}}')['post']
                       count=totals.setdefault(service,Counter())
                       status=p['status']
+                      if p.get('dueAt') and (p['dueAt'][:10]==now.date().isoformat() or status in ['scheduled','draft']):
+                          print('PSFR_SLOT',service,p['dueAt'],status,'platform_link_present='+str(bool(p.get('externalLink'))),flush=True)
                       if status=='scheduled':
                           due=datetime.fromisoformat(p['dueAt'].replace('Z','+00:00'))
                           count['upcoming' if due>now else 'overdue_scheduled']+=1
