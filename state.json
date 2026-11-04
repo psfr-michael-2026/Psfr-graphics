@@ -2784,6 +2784,13 @@
           "status": "accepted",
           "at": "2026-11-01T21:22:36.859420+00:00"
         }
+      },
+      "PSFR-20261104-AM-BUSY-GYM-PLAN:facebook": {
+        "status": "pending",
+        "channel_id": "6adac73f778b240e2f96b17b",
+        "dueAt": "2026-11-07T07:00:00Z",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/c93924454923c6ca6f87708eed65d3fa38fe29da/approved/rolling/PSFR-20261104-AM-BUSY-GYM-PLAN-Facebook.mp4",
+        "scheduling_type": "automatic"
       }
     },
     "verification": {
