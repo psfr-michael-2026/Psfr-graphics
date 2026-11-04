@@ -2278,6 +2278,36 @@
           }
         },
         "media_commit": "c93924454923c6ca6f87708eed65d3fa38fe29da"
+      },
+      "PSFR-20261104-PM-ASK-FOR-A-SPOT": {
+        "content": {
+          "id": "PSFR-20261104-PM-ASK-FOR-A-SPOT",
+          "headline": "Ask for a spot",
+          "caption": "Want a spot on the bench but unsure what to say?\n\nAsk an experienced lifter between sets: “Could you spot me for this set? I’m aiming for five reps and I’ll lift the bar off myself. If I say ‘take it’, help me rack it.”\n\nTell them if you’d prefer a hand lifting the bar out. Give them a moment to confirm they’re comfortable with the weight and the plan before you start.\n\nSave this for your next bench session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+          "dueAt": "2026-11-07T19:00:00Z",
+          "approved": true,
+          "approved_on": "2026-11-04",
+          "approval_reference": "Michael explicitly approved the exact Ask for a spot package on 4 November 2026 and requested GitHub hosting and Buffer scheduling.",
+          "assets": {
+            "facebook": {
+              "path": "approved/rolling/PSFR-20261104-PM-ASK-FOR-A-SPOT-Facebook.mp4",
+              "sha256": "a22080794b28b4ca2181e531fc85258ede4d291cb73e133de74f03478bee8140",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "vertical": {
+              "path": "approved/rolling/PSFR-20261104-PM-ASK-FOR-A-SPOT-Vertical.mp4",
+              "sha256": "b59ead0b538680ef1c7e2580c8da3df9e2c21e765a6ed1b9a6654fc38222c6c0",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        "media_commit": "696c7ca01bffeb42f924e0fdf09b24541b463cd8"
       }
     },
     "receipts": {
