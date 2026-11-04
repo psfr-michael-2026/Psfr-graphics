@@ -2248,6 +2248,36 @@
           }
         },
         "media_commit": "d34a2a6a9062d28c0e59c24bd56a53ebef9dfb2f"
+      },
+      "PSFR-20261104-AM-BUSY-GYM-PLAN": {
+        "content": {
+          "id": "PSFR-20261104-AM-BUSY-GYM-PLAN",
+          "headline": "Busy gym? Have a Plan B.",
+          "caption": "The gym’s busy and your usual chest press is taken. What’s your next move?\n\nBefore you leave for the gym, write one backup next to the exercise you’re most likely to wait for. For example: “If the chest press machine is taken, I’ll do dumbbell bench presses if there’s a bench free.”\n\nPick a swap you already know how to do. Start with a weight you can control and log the exercise you actually did so you can compare it with the same movement next time.\n\nSave this for your next busy session. What’s your go-to swap when your usual kit is taken? Tell us below.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
+          "dueAt": "2026-11-07T07:00:00Z",
+          "approved": true,
+          "approved_on": "2026-11-04",
+          "approval_reference": "Michael replied “Yep do that” on 4 November 2026 to the exact Busy Gym Plan artwork, videos and caption and the proposal to queue it in the first open slot.",
+          "assets": {
+            "facebook": {
+              "path": "approved/rolling/PSFR-20261104-AM-BUSY-GYM-PLAN-Facebook.mp4",
+              "sha256": "92bd0625d876ed8de1c4f8b64a13ffb2c71c55e6eb1dacf0386fc8fa305a3cda",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "vertical": {
+              "path": "approved/rolling/PSFR-20261104-AM-BUSY-GYM-PLAN-Vertical.mp4",
+              "sha256": "32fe04e476f9de6a6de2c2c3d873f5a67b728e94fc3838f2edf2eb0943a46155",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        "media_commit": "c93924454923c6ca6f87708eed65d3fa38fe29da"
       }
     },
     "receipts": {
