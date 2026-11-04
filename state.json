@@ -2936,7 +2936,7 @@
         "post_id": "6aeb794579e2b7f790e392d6",
         "last_status": {
           "id": "6aeb794579e2b7f790e392d6",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac5fe778b240e2f96a871",
           "text": "Want a spot on the bench but unsure what to say?\n\nAsk an experienced lifter between sets: “Could you spot me for this set? I’m aiming for five reps and I’ll lift the bar off myself. If I say ‘take it’, help me rack it.”\n\nTell them if you’d prefer a hand lifting the bar out. Give them a moment to confirm they’re comfortable with the weight and the plan before you start.\n\nSave this for your next bench session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
           "dueAt": "2026-11-07T19:00:00.000Z",
@@ -2948,8 +2948,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-04T18:28:05.803658+00:00"
