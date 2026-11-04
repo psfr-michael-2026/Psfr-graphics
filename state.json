@@ -2850,7 +2850,7 @@
         "post_id": "6aeacceed59713e43424bb07",
         "last_status": {
           "id": "6aeacceed59713e43424bb07",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6ae08d042f1f5ed648e92cc0",
           "text": "The gym’s busy and your usual chest press is taken. What’s your next move?\n\nBefore you leave for the gym, write one backup next to the exercise you’re most likely to wait for. For example: “If the chest press machine is taken, I’ll do dumbbell bench presses if there’s a bench free.”\n\nPick a swap you already know how to do. Start with a weight you can control and log the exercise you actually did so you can compare it with the same movement next time.\n\nSave this for your next busy session. What’s your go-to swap when your usual kit is taken? Tell us below.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
           "dueAt": "2026-11-07T07:00:00.000Z",
@@ -2862,8 +2862,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-04T06:12:48.546017+00:00"
