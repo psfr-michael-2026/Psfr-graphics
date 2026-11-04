@@ -2863,7 +2863,11 @@
           ]
         },
         "verified_draft": true,
-        "verified_scheduled": false
+        "verified_scheduled": false,
+        "schedule_attempt": {
+          "status": "pending",
+          "at": "2026-11-04T06:12:48.546017+00:00"
+        }
       }
     },
     "verification": {
