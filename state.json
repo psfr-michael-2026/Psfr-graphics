@@ -2871,18 +2871,18 @@
       }
     },
     "verification": {
-      "checked_at": "2026-11-01T21:22:36.859420+00:00",
+      "checked_at": "2026-11-04T06:12:48.546017+00:00",
       "counts": {
         "facebook": {
-          "scheduled": 6,
+          "scheduled": 7,
           "drafts": 0
         },
         "tiktok": {
-          "scheduled": 6,
+          "scheduled": 7,
           "drafts": 0
         },
         "instagram": {
-          "scheduled": 6,
+          "scheduled": 7,
           "drafts": 0
         }
       },
