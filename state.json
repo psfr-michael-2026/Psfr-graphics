@@ -2949,7 +2949,11 @@
           ]
         },
         "verified_draft": true,
-        "verified_scheduled": false
+        "verified_scheduled": false,
+        "schedule_attempt": {
+          "status": "pending",
+          "at": "2026-11-04T18:28:05.803658+00:00"
+        }
       },
       "PSFR-20261104-PM-ASK-FOR-A-SPOT:instagram": {
         "status": "accepted",
