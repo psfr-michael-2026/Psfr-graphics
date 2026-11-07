@@ -3038,11 +3038,12 @@
         "verified_scheduled": false
       },
       "PSFR-20261103-PM-SUPPORTED-ROW:tiktok": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6adac5fe778b240e2f96a871",
         "dueAt": "2026-11-08T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/2e7bb88a25d1797d3be8e5e2fe31de32a692f98d/approved/rolling/PSFR-20261103-PM-SUPPORTED-ROW-Vertical.mp4",
-        "scheduling_type": "notification"
+        "scheduling_type": "notification",
+        "post_id": "6aef7892229bf05daf6c4a93"
       }
     },
     "verification": {
