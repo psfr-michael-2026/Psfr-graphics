@@ -4729,7 +4729,23 @@
         "dueAt": "2026-11-16T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-13-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aefa214229bf05daf78114c"
+        "post_id": "6aefa214229bf05daf78114c",
+        "last_status": {
+          "id": "6aefa214229bf05daf78114c",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Your quadriceps are the muscles at the front of your thigh. One of their jobs is straightening your knee.\n\nFor a simple movement practice, sit upright on a stable chair without wheels, with your feet supported. Slowly straighten one knee within a comfortable range, then lower the foot with control. Try five comfortable repetitions on each side. Stop if it hurts.\n\nSave this for a seated exercise option.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-16T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-13-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
