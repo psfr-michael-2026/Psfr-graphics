@@ -3063,7 +3063,11 @@
           ]
         },
         "verified_draft": true,
-        "verified_scheduled": false
+        "verified_scheduled": false,
+        "schedule_attempt": {
+          "status": "pending",
+          "at": "2026-11-07T19:14:17.362489+00:00"
+        }
       },
       "PSFR-20261103-PM-SUPPORTED-ROW:instagram": {
         "status": "accepted",
