@@ -3337,7 +3337,23 @@
         "dueAt": "2026-11-09T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/1ffbe6ffad5faed8027b2f585b0c49ee4c5e04b2/approved/rolling/PSFR-20261106-AM-GLUTE-BRIDGE-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aef7b63d6bbae6fa1a817d4"
+        "post_id": "6aef7b63d6bbae6fa1a817d4",
+        "last_status": {
+          "id": "6aef7b63d6bbae6fa1a817d4",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "A glute exercise you can practise at home: the floor bridge.\n\nIt works your glutes — the muscles in your buttocks — as you lift your hips. You can begin without weights.\n\nLie on your back with your knees bent and feet flat, about hip-width apart. Gently tighten your tummy, breathe out and squeeze your glutes to lift your hips. Keep your head and shoulders on the floor.\n\nLift only as far as you can without arching your lower back, then lower slowly. Start with five comfortable, controlled repetitions as a technique check. Stop if it hurts.\n\nYour cue: lift through your hips, rather than pushing your back into a bigger arch.\n\nSave this for your next home session and follow PSFR Health Systems for practical training tips.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-09T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/1ffbe6ffad5faed8027b2f585b0c49ee4c5e04b2/approved/rolling/PSFR-20261106-AM-GLUTE-BRIDGE-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
