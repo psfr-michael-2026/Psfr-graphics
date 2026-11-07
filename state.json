@@ -3260,11 +3260,12 @@
         "verified_scheduled": false
       },
       "PSFR-20261105-PM-RICE-STORAGE:facebook": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6adac73f778b240e2f96b17b",
         "dueAt": "2026-11-09T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/1ffbe6ffad5faed8027b2f585b0c49ee4c5e04b2/approved/rolling/PSFR-20261105-PM-RICE-STORAGE-Facebook.mp4",
-        "scheduling_type": "automatic"
+        "scheduling_type": "automatic",
+        "post_id": "6aef7b569214322f68104901"
       }
     },
     "verification": {
