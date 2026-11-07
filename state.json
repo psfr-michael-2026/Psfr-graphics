@@ -4036,7 +4036,7 @@
         "post_id": "6aefa08451492b796e01bb11",
         "last_status": {
           "id": "6aefa08451492b796e01bb11",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac73f778b240e2f96b17b",
           "text": "Calcium helps keep bones and teeth healthy and supports normal muscle contractions.\n\nDairy foods can contribute. If you choose a soya drink instead, look for one with added calcium; plant drinks do not all contain the same amount. Fish eaten with their soft bones, such as sardines, are another source.\n\nSave these ideas for your next food shop.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-11T07:00:00.000Z",
@@ -4048,8 +4048,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-07T22:08:19.081271+00:00"
