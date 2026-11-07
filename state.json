@@ -3280,7 +3280,7 @@
         "post_id": "6aef7b569214322f68104901",
         "last_status": {
           "id": "6aef7b569214322f68104901",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac73f778b240e2f96b17b",
           "text": "Cooking rice for tomorrow’s lunch? Give the cooling step a place in your prep.\n\nDivide cooked rice into small, shallow portions so it cools quickly. Refrigerate it within one hour of cooking and eat it within 24 hours. Don’t leave it cooling in the pan or rice cooker.\n\nCold rice is an option when it has been cooled quickly and kept refrigerated. If you reheat it, do so only once and make sure it is steaming hot all the way through.\n\nYour practical step: put the cooking time on the container so you know when to use it.\n\nSave this for your next meal-prep session, and share it with someone who cooks rice in batches.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-09T07:00:00.000Z",
@@ -3292,8 +3292,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-07T19:25:55.462405+00:00"
