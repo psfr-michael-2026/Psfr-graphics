@@ -3078,7 +3078,7 @@
         "post_id": "6aef78969214322f680f2e8b",
         "last_status": {
           "id": "6aef78969214322f680f2e8b",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6ae08d042f1f5ed648e92cc0",
           "text": "One-arm dumbbell rows at home? Set your support first.\n\nThe row trains your back, with your biceps helping to bend the elbow. Put your free hand on a sturdy workout bench and plant both feet. Start with a weight you can lift without twisting your torso.\n\nThink elbow towards your hip. Bring the dumbbell up beside your ribs, then lower it slowly. Try five steady reps on each side as a technique check before your working sets.\n\nSave this for your next home session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym\n",
           "dueAt": "2026-11-08T07:00:00.000Z",
@@ -3090,8 +3090,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-07T19:14:17.362489+00:00"
