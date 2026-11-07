@@ -3868,7 +3868,7 @@
         "post_id": "6aefa05dd6bbae6fa1b2849b",
         "last_status": {
           "id": "6aefa05dd6bbae6fa1b2849b",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac73f778b240e2f96b17b",
           "text": "A sleep routine has a morning end as well as a bedtime.\n\nGetting up at a similar time each day can help your body settle into a regular sleep pattern. Choose a realistic time that still leaves enough opportunity to sleep. If you work shifts, fit the routine around your actual rota.\n\nSave this when you plan your week.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-10T07:00:00.000Z",
@@ -3880,8 +3880,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-07T22:08:19.081271+00:00"
