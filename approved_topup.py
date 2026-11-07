@@ -126,7 +126,7 @@ def main(action):
             r.update(last_status=result,verified_scheduled=True,verified_draft=False);save()
     totals={}
     for _,service,_ in TARGETS:
-        recs=[v for k,v in record['receipts'].items() if k.endswith(':'+service)]
+        recs=[v for k,v in record['receipts'].items() if k.endswith(':'+service) and v.get('dueAt') and stamp(v['dueAt'])>now]
         totals[service]={'scheduled':sum(bool(r.get('verified_scheduled')) for r in recs),'drafts':sum(bool(r.get('verified_draft')) for r in recs)}
     record['verification']={'checked_at':now.isoformat(),'counts':totals,'live_delivery_verified':False};save()
     print('APPROVED_TOPUP_COUNTS',json.dumps(totals),flush=True)
