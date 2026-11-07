@@ -51,6 +51,8 @@ def buffer(query):
     key = os.environ.get('BUFFER_API_KEY')
     if not key:
         raise RuntimeError('BUFFER_API_KEY is missing from repository secrets.')
+    # Pace reads and writes to stay below the API request-rate ceiling.
+    time.sleep(1.1)
     data = request_json('https://api.buffer.com', {'query': query},
                         {'Authorization': 'Bearer ' + key})
     if data.get('errors'):
