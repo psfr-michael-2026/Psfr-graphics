@@ -3937,7 +3937,23 @@
         "dueAt": "2026-11-10T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-02-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aefa0719214322f681a85ac"
+        "post_id": "6aefa0719214322f681a85ac",
+        "last_status": {
+          "id": "6aefa0719214322f681a85ac",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Lying in bed getting increasingly frustrated can turn the night into a battle.\n\nIf you are wide awake and uncomfortable, get up and do something quiet and relaxing. Return when you feel sleepy, rather than trying harder to make sleep happen. Keep the activity calm; this is not a cue to start work.\n\nSave this for a restless night.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-10T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-02-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
