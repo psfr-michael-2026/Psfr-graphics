@@ -4849,7 +4849,23 @@
         "dueAt": "2026-11-16T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-14-Vertical.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aefa235d6bbae6fa1b32806"
+        "post_id": "6aefa235d6bbae6fa1b32806",
+        "last_status": {
+          "id": "6aefa235d6bbae6fa1b32806",
+          "status": "draft",
+          "channelId": "6ae08d042f1f5ed648e92cc0",
+          "text": "The triceps sit at the back of your upper arm and help straighten your elbow.\n\nFor a cable pushdown, start with your elbows bent close to your sides and palms facing down on the bar. Press the bar down smoothly, then return with control. Keep your head, trunk and lower body steady, rather than rocking to move the weight. Choose a comfortable load and ask staff for help if the equipment is unfamiliar.\n\nSave this for your next gym session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-16T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-14-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
