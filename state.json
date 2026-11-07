@@ -3252,7 +3252,7 @@
         "post_id": "6aef7b529214322f6810488b",
         "last_status": {
           "id": "6aef7b529214322f6810488b",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6ae08d042f1f5ed648e92cc0",
           "text": "Two food packets can look similar, but their suggested portions may be different.\n\nWhen comparing similar foods, start with the per 100g column. That puts both on the same basis. Then check the amount you actually plan to eat.\n\nFor example, if a food contains 400 kcal per 100g, a 50g portion contains 200 kcal. That is an example calculation, so use the figures on your own packet.\n\nCheck whether the label refers to the food as sold or as prepared, too.\n\nSave this for your next food shop.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-08T19:00:00.000Z",
@@ -3264,8 +3264,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-07T19:25:55.462405+00:00"
