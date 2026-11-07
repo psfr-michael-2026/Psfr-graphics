@@ -4657,7 +4657,23 @@
         "dueAt": "2026-11-15T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-12-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aefa2019214322f681b077b"
+        "post_id": "6aefa2019214322f681b077b",
+        "last_status": {
+          "id": "6aefa2019214322f681b077b",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Carbohydrate foods can have a useful place in meals around an active life.\n\nFoods such as rice, potatoes, oats and pasta provide energy. Choose portions that fit your appetite, activity and overall needs, alongside other foods that make up a balanced diet. There is no single portion that suits everybody.\n\nShare this with someone who thinks being fit means giving up potatoes.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-15T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-12-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
