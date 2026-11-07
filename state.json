@@ -4225,7 +4225,23 @@
         "dueAt": "2026-11-12T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-06-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aefa18a229bf05daf77f604"
+        "post_id": "6aefa18a229bf05daf77f604",
+        "last_status": {
+          "id": "6aefa18a229bf05daf77f604",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Here is a seated chest stretch you can practise without equipment.\n\nChoose a stable chair without wheels. Sit upright away from the backrest, draw your shoulders back and down, and open your arms to the sides. Gently bring your chest forwards and upwards until you feel a comfortable stretch. Hold for five to ten seconds, then relax. Avoid forcing it or stretching into pain.\n\nSave this to try later.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-12T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-06-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
