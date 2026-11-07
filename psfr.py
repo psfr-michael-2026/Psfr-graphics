@@ -10,6 +10,7 @@ import subprocess
 import sys
 import time
 import urllib.request
+import urllib.error
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
@@ -34,8 +35,16 @@ def request_json(url, payload, headers):
     # Never retry a mutation: a timeout can occur after the service accepted it.
     req = urllib.request.Request(url, data=json.dumps(payload).encode(),
                                  headers={'Content-Type': 'application/json', **headers})
-    with urllib.request.urlopen(req, timeout=90) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(req, timeout=90) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 429:
+            # Only publish rate-limit metadata, never credentials or response bodies.
+            retry = exc.headers.get('Retry-After', 'unavailable')
+            reset = exc.headers.get('X-RateLimit-Reset', 'unavailable')
+            print('BUFFER_RATE_LIMIT retry_after=' + str(retry) + ' reset=' + str(reset), flush=True)
+        raise
 
 
 def buffer(query):
