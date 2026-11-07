@@ -4345,7 +4345,23 @@
         "dueAt": "2026-11-13T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-07-Vertical.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aefa1ab229bf05daf77fb43"
+        "post_id": "6aefa1ab229bf05daf77fb43",
+        "last_status": {
+          "id": "6aefa1ab229bf05daf77fb43",
+          "status": "draft",
+          "channelId": "6ae08d042f1f5ed648e92cc0",
+          "text": "Give the warm-up a proper place in your workout.\n\nStart with easy movement and gradually build towards the activity you are about to do. For a strength session, include a manageable practice of the planned movements before the demanding work. Your warm-up should prepare you, rather than exhaust you.\n\nSave this for your next session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-13T07:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-07-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
