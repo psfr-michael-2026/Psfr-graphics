@@ -4506,6 +4506,13 @@
         },
         "verified_draft": true,
         "verified_scheduled": false
+      },
+      "PSFR-20261107-NEW-10:facebook": {
+        "status": "pending",
+        "channel_id": "6adac73f778b240e2f96b17b",
+        "dueAt": "2026-11-14T19:00:00Z",
+        "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-10-Facebook.mp4",
+        "scheduling_type": "automatic"
       }
     },
     "verification": {
