@@ -4965,19 +4965,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-11-07T19:25:55.462405+00:00",
+      "checked_at": "2026-11-07T22:08:19.081271+00:00",
       "counts": {
         "facebook": {
-          "scheduled": 12,
-          "drafts": 0
+          "scheduled": 10,
+          "drafts": 8
         },
         "tiktok": {
-          "scheduled": 12,
-          "drafts": 0
+          "scheduled": 10,
+          "drafts": 8
         },
         "instagram": {
-          "scheduled": 12,
-          "drafts": 0
+          "scheduled": 10,
+          "drafts": 8
         }
       },
       "live_delivery_verified": false
