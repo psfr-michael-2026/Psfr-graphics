@@ -3379,7 +3379,7 @@
         "verified_draft": true,
         "verified_scheduled": false,
         "schedule_attempt": {
-          "status": "pending",
+          "status": "accepted",
           "at": "2026-11-07T19:25:55.462405+00:00"
         }
       },
