@@ -4465,7 +4465,23 @@
         "dueAt": "2026-11-14T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-09-Vertical.mp4",
         "scheduling_type": "notification",
-        "post_id": "6aefa1ccd6bbae6fa1b31215"
+        "post_id": "6aefa1ccd6bbae6fa1b31215",
+        "last_status": {
+          "id": "6aefa1ccd6bbae6fa1b31215",
+          "status": "draft",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "What if you stopped describing exercise as paying for what you ate?\n\nTry giving your session a purpose you actually value: improving a skill, building strength, developing fitness or enjoying the activity. Food and exercise do not need a moral scorecard.\n\nWhat would you like your training to give you? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-14T07:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-09-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
