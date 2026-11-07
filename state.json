@@ -4124,11 +4124,12 @@
         "verified_scheduled": false
       },
       "PSFR-20261107-NEW-04:instagram": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6ae08d042f1f5ed648e92cc0",
         "dueAt": "2026-11-11T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-04-Vertical.mp4",
-        "scheduling_type": "automatic"
+        "scheduling_type": "automatic",
+        "post_id": "6aefa16f9214322f681ae4bb"
       }
     },
     "verification": {
