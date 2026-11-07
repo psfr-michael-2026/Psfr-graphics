@@ -4232,7 +4232,7 @@
         "post_id": "6aefa17d51492b796e021dab",
         "last_status": {
           "id": "6aefa17d51492b796e021dab",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac5fe778b240e2f96a871",
           "text": "Balance deserves practice alongside strength and fitness.\n\nTry a short heel-to-toe walk beside a clear wall. Stand upright, place one heel directly in front of the opposite toes, then alternate for five slow steps. Look forwards and use your fingertips against the wall if needed. Keep the area clear and stop if you feel unsteady.\n\nSave this for your next movement session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-12T07:00:00.000Z",
@@ -4244,8 +4244,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-07T22:08:19.081271+00:00"
