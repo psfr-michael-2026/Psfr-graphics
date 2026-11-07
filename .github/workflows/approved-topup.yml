@@ -36,3 +36,5 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: python approved_topup.py stage
+
+# Retry after read-only account discovery rate limit; no writes occurred in failed run.
