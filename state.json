@@ -4081,7 +4081,23 @@
         "dueAt": "2026-11-11T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-04-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6aefa0979214322f681a9615"
+        "post_id": "6aefa0979214322f681a9615",
+        "last_status": {
+          "id": "6aefa0979214322f681a9615",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "Oranges are one option, but there are plenty of other foods containing vitamin C.\n\nPeppers, strawberries and broccoli can contribute too. Try sliced pepper in your next wrap or strawberries with breakfast. Vitamin C supports healthy skin and other tissues, and helps wound healing.\n\nWhich would you choose? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-11T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/26b9fcb59423513e06af8fe9ca95a486091fbe72/approved/rolling/PSFR-20261107-NEW-04-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
