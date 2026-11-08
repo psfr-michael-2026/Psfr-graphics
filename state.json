@@ -4419,12 +4419,8 @@
         "verified_draft": true,
         "verified_scheduled": false,
         "schedule_attempt": {
-          "status": "deferred-capacity",
-          "at": "2026-11-07T23:44:15.924382+00:00",
-          "response": {
-            "__typename": "LimitReachedError",
-            "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
-          }
+          "status": "pending",
+          "at": "2026-11-08T01:14:16.207491+00:00"
         }
       },
       "PSFR-20261107-NEW-07:instagram": {
