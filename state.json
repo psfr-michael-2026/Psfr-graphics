@@ -5077,7 +5077,23 @@
         "dueAt": "2026-11-17T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/4541086c6a078053bf6b52e76da771127fa3c3d5/approved/rolling/PSFR-20261108-REPL-01-Vertical.mp4",
         "scheduling_type": "notification",
-        "post_id": "6af0ce1a51492b796e592282"
+        "post_id": "6af0ce1a51492b796e592282",
+        "last_status": {
+          "id": "6af0ce1a51492b796e592282",
+          "status": "draft",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "Sleep preparation is not only about bedtime.\n\nNatural light in the morning or early afternoon helps support your sleep-wake cycle. Try using a daytime break to get outdoors in daylight. You can sit outside or enjoy a comfortable walk; this is about making room for daylight, rather than hitting an exercise target.\n\nChoose a practical daylight opportunity that fits your day.\n\nSave this for your next daytime break, and follow PSFR Health Systems for practical fitness, fuel and recovery ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-17T07:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/4541086c6a078053bf6b52e76da771127fa3c3d5/approved/rolling/PSFR-20261108-REPL-01-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
