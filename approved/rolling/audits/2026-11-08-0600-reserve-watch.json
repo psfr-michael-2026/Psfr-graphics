@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-11-08",
+  "check_window": "06:00–06:09 Europe/London",
+  "approval_reference": "Michael's 8 November 2026 standing authorisation: maintain 10 future scheduled posts and 8 distinct upload-ready reserves per channel; routine new replacement production, quality checks, public hosting and upload authorised. No exact-package approval claimed.",
+  "source": "Live authenticated Buffer UI; current master plan v45; repository AGENTS.md, AUTOMATION.md, approved/rolling/manifest.json and root state.json; read-only workflow logs.",
+  "counts": {
+    "facebook": {
+      "scheduled": 10,
+      "usable_reserves": 8,
+      "total_ui_drafts": 10,
+      "excluded_legacy_drafts": 2,
+      "sent_ui_total": 55
+    },
+    "instagram": {
+      "scheduled": 10,
+      "usable_reserves": 8,
+      "total_ui_drafts": 8,
+      "excluded_legacy_drafts": 0,
+      "sent_ui_total": 26
+    },
+    "tiktok": {
+      "scheduled": 10,
+      "usable_reserves": 8,
+      "total_ui_drafts": 9,
+      "excluded_legacy_drafts": 1,
+      "sent_ui_total": 57
+    }
+  },
+  "scheduled_coverage": {
+    "from": "2026-11-08T07:00:00Z",
+    "through": "2026-11-12T19:00:00Z"
+  },
+  "reserve_coverage": {
+    "from": "2026-11-13T07:00:00Z",
+    "through": "2026-11-16T19:00:00Z",
+    "package_ids": [
+      "PSFR-20261107-NEW-07",
+      "PSFR-20261107-NEW-08",
+      "PSFR-20261107-NEW-09",
+      "PSFR-20261107-NEW-10",
+      "PSFR-20261107-NEW-11",
+      "PSFR-20261107-NEW-12",
+      "PSFR-20261107-NEW-13",
+      "PSFR-20261107-NEW-14"
+    ]
+  },
+  "new_production_needed": 0,
+  "new_packages_created": 0,
+  "buffer_mutations": 0,
+  "production_reservation": "No production reserved: every channel already meets target. Daily tasks and reserve watch must recheck current state/live counts before producing or promoting.",
+  "publishing_modes": {
+    "facebook": "automatic silent",
+    "instagram": "automatic silent",
+    "tiktok": "notification phone handover"
+  },
+  "failures": [
+    {
+      "type": "transient_buffer_api_rate_limit",
+      "run_id": 42453166086,
+      "at": "2026-11-08T06:03:42Z",
+      "retry_after_seconds": 47139,
+      "reported_reset": "2026-11-08T19:09:21Z",
+      "action": "No retry or mutation. Verified bank via live Buffer UI. Keep recurring watch enabled because transient; report potential API refill delay."
+    }
+  ],
+  "observations": [
+    "Buffer UI still displays Issue Publishing Posts to TikTok banner; no claim incident resolved.",
+    "Sent records excluded from upcoming/reserve counts. TikTok notified is not confirmed platform publication.",
+    "No pending/uncertain create or schedule receipts found in current state. Existing approved assets/captions/IDs preserved."
+  ]
+}
