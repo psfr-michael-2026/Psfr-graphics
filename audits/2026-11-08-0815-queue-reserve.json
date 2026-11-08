@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-11-08",
+  "check_window": "08:14–08:22 GMT",
+  "status": "blocked_transient_buffer_rate_limit",
+  "approval_reference": "Michael's 8 November 2026 standing authorisation: maintain ten future scheduled posts and eight distinct upload-ready reserve drafts per PSFR channel; routine replacement production, quality checking, public hosting and uploading authorised. No exact-package approval claimed.",
+  "counts": {
+    "facebook": {
+      "scheduled": 9,
+      "usable_reserves": 8,
+      "total_ui_drafts": 10,
+      "excluded_legacy_drafts": 2,
+      "sent_ui_total": 56
+    },
+    "instagram": {
+      "scheduled": 9,
+      "usable_reserves": 8,
+      "total_ui_drafts": 8,
+      "excluded_legacy_drafts": 0,
+      "sent_ui_total": 27
+    },
+    "tiktok": {
+      "scheduled": 9,
+      "usable_reserves": 8,
+      "total_ui_drafts": 9,
+      "excluded_legacy_drafts": 1,
+      "sent_ui_total": 58
+    }
+  },
+  "reserve_ids": [
+    "PSFR-20261107-NEW-07",
+    "PSFR-20261107-NEW-08",
+    "PSFR-20261107-NEW-09",
+    "PSFR-20261107-NEW-10",
+    "PSFR-20261107-NEW-11",
+    "PSFR-20261107-NEW-12",
+    "PSFR-20261107-NEW-13",
+    "PSFR-20261107-NEW-14"
+  ],
+  "source": "Current master plan v45, AGENTS.md, AUTOMATION.md, manifest/state and authenticated live Buffer scheduled/draft/sent views; latest approved-topup failure logs.",
+  "blocker": {
+    "run_id": 42461738600,
+    "job_id": 128672295845,
+    "at": "2026-11-08T08:10:31Z",
+    "http_status": 429,
+    "retry_after_seconds": 39530,
+    "reset_at": "2026-11-08T19:09:21Z",
+    "failed_before": "Initial account organizations discovery query; no Buffer mutations"
+  },
+  "sent_check": "8 November supported-row sent record present on Facebook and Instagram with external post links. TikTok Notified is phone handover only, not proof of platform publication.",
+  "production_reservation": null,
+  "changes": "No new creative production, Buffer changes, manifest promotion or state edits. Existing approved media, captions, IDs and modes preserved. No blind retry before rate-limit reset.",
+  "next_action": "After API reset reread main, coordination audits and live Buffer; promote earliest SAME reserve IDs using approved-topup. Then reserve and create only actual new reserve shortage, prospectively one distinct package at 17 November 07:00 GMT if unchanged. This audit is not a production reservation.",
+  "other_live_issue": "Buffer continues displaying TikTok publishing incident banner.",
+  "task_status": "Retain recurring checks because blocker is transient.",
+  "notification": "Same blocker and counts already reported in preceding run; no changed user action required."
+}
