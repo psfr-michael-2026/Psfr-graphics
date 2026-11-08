@@ -4372,7 +4372,7 @@
         "post_id": "6aefa19e562f2e6de983007c",
         "last_status": {
           "id": "6aefa19e562f2e6de983007c",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac73f778b240e2f96b17b",
           "text": "Give the warm-up a proper place in your workout.\n\nStart with easy movement and gradually build towards the activity you are about to do. For a strength session, include a manageable practice of the planned movements before the demanding work. Your warm-up should prepare you, rather than exhaust you.\n\nSave this for your next session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-13T07:00:00.000Z",
@@ -4384,8 +4384,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-08T19:13:04.417191+00:00"
