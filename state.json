@@ -4387,8 +4387,12 @@
         "verified_draft": true,
         "verified_scheduled": false,
         "schedule_attempt": {
-          "status": "pending",
-          "at": "2026-11-08T05:56:12.244183+00:00"
+          "status": "deferred-capacity",
+          "at": "2026-11-08T05:56:12.244183+00:00",
+          "response": {
+            "__typename": "LimitReachedError",
+            "message": "Scheduled posts limit reached. You have 10 scheduled posts out of 10 allowed."
+          }
         }
       },
       "PSFR-20261107-NEW-07:tiktok": {
