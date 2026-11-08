@@ -1,0 +1,49 @@
+{
+  "checked_on": "2026-11-08",
+  "checked_after": "2026-11-08T07:14:59Z",
+  "status": "blocked_transient_buffer_rate_limit",
+  "approval_reference": "Michael's standing authorisation of 8 November 2026: maintain ten future scheduled and eight distinct usable reserve drafts per Facebook, Instagram and TikTok; routine replacement production/hosting/upload authorised, without an invented exact-package approval.",
+  "live_ui_counts": {
+    "facebook": {
+      "scheduled": 9,
+      "usable_reserves": 8
+    },
+    "instagram": {
+      "scheduled": 9,
+      "usable_reserves": 8
+    },
+    "tiktok": {
+      "scheduled": 9,
+      "usable_reserves": 8
+    }
+  },
+  "excluded_legacy_drafts": {
+    "facebook": 2,
+    "tiktok": 1
+  },
+  "reserve_ids": [
+    "PSFR-20261107-NEW-07",
+    "PSFR-20261107-NEW-08",
+    "PSFR-20261107-NEW-09",
+    "PSFR-20261107-NEW-10",
+    "PSFR-20261107-NEW-11",
+    "PSFR-20261107-NEW-12",
+    "PSFR-20261107-NEW-13",
+    "PSFR-20261107-NEW-14"
+  ],
+  "sent_check": "8 November 07:00 supported-row records now in Sent on all three channels. TikTok sent notification is not proof of public publication.",
+  "blocker": {
+    "run_id": 42457632570,
+    "job_id": 128659949136,
+    "http_status": 429,
+    "at": "2026-11-08T07:10:12Z",
+    "retry_after_seconds": 43149,
+    "reset_at": "2026-11-08T19:09:21Z",
+    "failed_before": "discover_channels account organizations query; no Buffer mutations in this failed run"
+  },
+  "changes": "No Buffer writes, manifest promotion or new creative production. Existing assets, captions, IDs and publishing modes preserved.",
+  "production_reservation": null,
+  "next_action": "After rate-limit reset, reread current main, durable production records and live Buffer; promote same earliest usable reserve IDs through approved-topup; then reserve and produce only actual shortage. At this check one additional distinct package per channel is needed to reach eighteen upcoming items, prospectively 17 November 07:00 GMT. Recalculate before acting; this audit is not a production reservation.",
+  "other_live_issue": "Buffer UI continues displaying Issue Publishing Posts to TikTok banner.",
+  "task_status": "Recurring checks retained: transient rate limiting; do not disable."
+}
