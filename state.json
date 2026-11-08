@@ -5072,11 +5072,12 @@
         "verified_scheduled": false
       },
       "PSFR-20261108-REPL-01:tiktok": {
-        "status": "pending",
+        "status": "accepted",
         "channel_id": "6adac5fe778b240e2f96a871",
         "dueAt": "2026-11-17T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/4541086c6a078053bf6b52e76da771127fa3c3d5/approved/rolling/PSFR-20261108-REPL-01-Vertical.mp4",
-        "scheduling_type": "notification"
+        "scheduling_type": "notification",
+        "post_id": "6af0ce1a51492b796e592282"
       }
     },
     "verification": {
