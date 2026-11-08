@@ -1,0 +1,45 @@
+{
+  "id": "PSFR-20261108-REPL-02",
+  "headline": "NOTICE YOUR SLEEP PATTERN.",
+  "dueAt": "2026-11-17T19:00:00Z",
+  "caption": "One difficult night does not show your whole sleep pattern.\n\nTry making a short note each morning: when you went to bed, when you woke up and how rested you feel. You can also note any long periods awake or daytime naps.\n\nLook back across several days. The aim is to notice patterns, rather than judge each night in isolation. These notes can also be useful if you discuss ongoing sleep difficulties with a healthcare professional.\n\nSave this and try a simple sleep diary tomorrow. Follow PSFR Health Systems for practical recovery ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+  "evidence": [
+    "https://www.nhlbi.nih.gov/health/sleep-deprivation/diagnosis-treatment",
+    "https://www.cntw.nhs.uk/resources/my-sleep-diary"
+  ],
+  "takeaway": "Record bedtime, wake time and morning restfulness across days to notice a sleep pattern.",
+  "duplicate_review": "Compared against complete master v45, original week, rolling manifest/state, held/rejected/review items and live Buffer banks. Closest: progress logging, training diary, wake-time consistency, caffeine timing, sleep environment and lying awake. This records sleep observations rather than prescribing a wake time, forcing sleep or tracking gym progress; new takeaway and notebook photographic scene.",
+  "theme": "Recovery & sleep",
+  "approved": true,
+  "approved_on": "2026-11-08",
+  "approval_reference": "Michael's 8 November 2026 standing authorisation to maintain ten future scheduled posts plus eight distinct upload-ready reserve drafts per PSFR Facebook, Instagram and TikTok channel, including routine replacement creation, quality checking, public media hosting and Buffer uploading. This is standing authorisation, not an invented exact-package approval.",
+  "screens": 2,
+  "evidence_checked_on": "2026-11-08",
+  "business_purpose": "Useful practical education; CTA saves and relevant follows; no service or credential claims.",
+  "assets": {
+    "facebook": {
+      "path": "approved/rolling/PSFR-20261108-REPL-02-Facebook.mp4",
+      "sha256": "3684ecc44a5ba392993719e063fe7e44e480ee2d990c5e05f9833605eed23727",
+      "dimensions": [
+        1440,
+        1800
+      ]
+    },
+    "vertical": {
+      "path": "approved/rolling/PSFR-20261108-REPL-02-Vertical.mp4",
+      "sha256": "f2d0065045c566102258a06cdfeef344c76c0f8a58484152e3c4daa56a1dffaa",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  },
+  "qa": {
+    "screens": 2,
+    "fps": 25,
+    "seconds": 15,
+    "audio_streams": 0,
+    "original_logo": "9815(1).png; exact retrieved source overlaid in final native video rendering on both screens",
+    "visual_inspection": "Passed final graphics and actual frames at 2s/7s; copy, website, logo, margins and photographic artwork checked."
+  }
+}
