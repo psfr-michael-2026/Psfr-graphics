@@ -4456,7 +4456,7 @@
         "post_id": "6aefa1b2d6bbae6fa1b3090f",
         "last_status": {
           "id": "6aefa1b2d6bbae6fa1b3090f",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac73f778b240e2f96b17b",
           "text": "A resistance band can look simple and still need a check.\n\nBefore each session, inspect it for small tears, cracks, thinning and worn areas. If it is damaged, replace it before exercising. Check the manufacturer's guidance for how to secure it and how far it may be stretched; those details vary by product.\n\nSave this with your home-workout ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-13T19:00:00.000Z",
@@ -4468,8 +4468,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-08T19:13:04.417191+00:00"
