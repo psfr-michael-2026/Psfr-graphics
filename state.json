@@ -2848,6 +2848,66 @@
           }
         },
         "media_commit": "26b9fcb59423513e06af8fe9ca95a486091fbe72"
+      },
+      "PSFR-20261108-REPL-01": {
+        "content": {
+          "id": "PSFR-20261108-REPL-01",
+          "headline": "GIVE YOUR BODY CLOCK DAYLIGHT.",
+          "caption": "Sleep preparation is not only about bedtime.\n\nNatural light in the morning or early afternoon helps support your sleep-wake cycle. Try using a daytime break to get outdoors in daylight. You can sit outside or enjoy a comfortable walk; this is about making room for daylight, rather than hitting an exercise target.\n\nChoose a practical daylight opportunity that fits your day.\n\nSave this for your next daytime break, and follow PSFR Health Systems for practical fitness, fuel and recovery ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-17T07:00:00Z",
+          "approved": true,
+          "approved_on": "2026-11-08",
+          "approval_reference": "Michael's 8 November 2026 standing authorisation to maintain ten future scheduled posts plus eight distinct upload-ready reserve drafts per PSFR Facebook, Instagram and TikTok channel, including routine replacement creation, quality checking, public media hosting and Buffer uploading. This is standing authorisation, not an invented exact-package approval.",
+          "assets": {
+            "facebook": {
+              "path": "approved/rolling/PSFR-20261108-REPL-01-Facebook.mp4",
+              "sha256": "cb62715011049bfa854012f124dc7a9f7559f46c8a3709d7a87c86457d9df858",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "vertical": {
+              "path": "approved/rolling/PSFR-20261108-REPL-01-Vertical.mp4",
+              "sha256": "7a1481bb9d545f2b1ab489279ff82a2c0da9d39fae10acb6c88f5b812ce66f79",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        "media_commit": "4541086c6a078053bf6b52e76da771127fa3c3d5"
+      },
+      "PSFR-20261108-REPL-02": {
+        "content": {
+          "id": "PSFR-20261108-REPL-02",
+          "headline": "NOTICE YOUR SLEEP PATTERN.",
+          "caption": "One difficult night does not show your whole sleep pattern.\n\nTry making a short note each morning: when you went to bed, when you woke up and how rested you feel. You can also note any long periods awake or daytime naps.\n\nLook back across several days. The aim is to notice patterns, rather than judge each night in isolation. These notes can also be useful if you discuss ongoing sleep difficulties with a healthcare professional.\n\nSave this and try a simple sleep diary tomorrow. Follow PSFR Health Systems for practical recovery ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-17T19:00:00Z",
+          "approved": true,
+          "approved_on": "2026-11-08",
+          "approval_reference": "Michael's 8 November 2026 standing authorisation to maintain ten future scheduled posts plus eight distinct upload-ready reserve drafts per PSFR Facebook, Instagram and TikTok channel, including routine replacement creation, quality checking, public media hosting and Buffer uploading. This is standing authorisation, not an invented exact-package approval.",
+          "assets": {
+            "facebook": {
+              "path": "approved/rolling/PSFR-20261108-REPL-02-Facebook.mp4",
+              "sha256": "3684ecc44a5ba392993719e063fe7e44e480ee2d990c5e05f9833605eed23727",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "vertical": {
+              "path": "approved/rolling/PSFR-20261108-REPL-02-Vertical.mp4",
+              "sha256": "f2d0065045c566102258a06cdfeef344c76c0f8a58484152e3c4daa56a1dffaa",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        "media_commit": "4541086c6a078053bf6b52e76da771127fa3c3d5"
       }
     },
     "receipts": {
