@@ -5125,7 +5125,23 @@
         "dueAt": "2026-11-17T19:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/4541086c6a078053bf6b52e76da771127fa3c3d5/approved/rolling/PSFR-20261108-REPL-02-Facebook.mp4",
         "scheduling_type": "automatic",
-        "post_id": "6af0ce28d6bbae6fa1099619"
+        "post_id": "6af0ce28d6bbae6fa1099619",
+        "last_status": {
+          "id": "6af0ce28d6bbae6fa1099619",
+          "status": "draft",
+          "channelId": "6adac73f778b240e2f96b17b",
+          "text": "One difficult night does not show your whole sleep pattern.\n\nTry making a short note each morning: when you went to bed, when you woke up and how rested you feel. You can also note any long periods awake or daytime naps.\n\nLook back across several days. The aim is to notice patterns, rather than judge each night in isolation. These notes can also be useful if you discuss ongoing sleep difficulties with a healthcare professional.\n\nSave this and try a simple sleep diary tomorrow. Follow PSFR Health Systems for practical recovery ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-17T19:00:00.000Z",
+          "schedulingType": "automatic",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/4541086c6a078053bf6b52e76da771127fa3c3d5/approved/rolling/PSFR-20261108-REPL-02-Facebook.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
