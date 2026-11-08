@@ -5193,19 +5193,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-11-08T19:13:04.417191+00:00",
+      "checked_at": "2026-11-08T19:31:02.194435+00:00",
       "counts": {
         "facebook": {
           "scheduled": 10,
-          "drafts": 6
+          "drafts": 8
         },
         "tiktok": {
           "scheduled": 10,
-          "drafts": 6
+          "drafts": 8
         },
         "instagram": {
           "scheduled": 10,
-          "drafts": 6
+          "drafts": 8
         }
       },
       "live_delivery_verified": false
