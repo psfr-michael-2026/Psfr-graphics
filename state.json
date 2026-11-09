@@ -5205,19 +5205,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-11-09T06:20:13.952732+00:00",
+      "checked_at": "2026-11-09T07:40:23.335165+00:00",
       "counts": {
         "facebook": {
           "scheduled": 10,
-          "drafts": 8
+          "drafts": 7
         },
         "tiktok": {
           "scheduled": 10,
-          "drafts": 8
+          "drafts": 7
         },
         "instagram": {
           "scheduled": 10,
-          "drafts": 8
+          "drafts": 7
         }
       },
       "live_delivery_verified": false
