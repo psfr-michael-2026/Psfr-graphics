@@ -5307,19 +5307,19 @@
       }
     },
     "verification": {
-      "checked_at": "2026-11-09T07:40:23.335165+00:00",
+      "checked_at": "2026-11-09T07:46:05.274413+00:00",
       "counts": {
         "facebook": {
           "scheduled": 10,
-          "drafts": 7
+          "drafts": 8
         },
         "tiktok": {
           "scheduled": 10,
-          "drafts": 7
+          "drafts": 8
         },
         "instagram": {
           "scheduled": 10,
-          "drafts": 7
+          "drafts": 8
         }
       },
       "live_delivery_verified": false
