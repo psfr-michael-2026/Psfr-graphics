@@ -2908,6 +2908,36 @@
           }
         },
         "media_commit": "4541086c6a078053bf6b52e76da771127fa3c3d5"
+      },
+      "PSFR-20261109-REPL-01": {
+        "content": {
+          "id": "PSFR-20261109-REPL-01",
+          "headline": "IRON FROM PLANTS? THINK IN PAIRS.",
+          "caption": "Lentils on the menu? Think about what you serve alongside them.\n\nLentils, beans and chickpeas provide plant iron. Including a food containing vitamin C in the same meal helps your body absorb that iron.\n\nTry cooked lentils with broccoli at your next meal. It is a simple food pairing you can use within a varied, balanced diet.\n\nSave this pairing for your next meal, and follow PSFR Health Systems for practical food, fitness and recovery ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-18T07:00:00Z",
+          "approved": true,
+          "approved_on": "2026-11-09",
+          "approval_reference": "Michael's 8 November 2026 standing authorisation to maintain ten future scheduled posts plus eight distinct upload-ready reserves per PSFR Facebook, Instagram and TikTok channel, including routine replacement creation, quality checking, public hosting and uploading. Standing authorisation; no exact-package approval invented.",
+          "assets": {
+            "facebook": {
+              "path": "approved/rolling/PSFR-20261109-REPL-01-Facebook.mp4",
+              "sha256": "5f1e9823b6670ad36c6b287f8606ed3a10411dcb3f9e580503ef00222763cbd4",
+              "dimensions": [
+                1440,
+                1800
+              ]
+            },
+            "vertical": {
+              "path": "approved/rolling/PSFR-20261109-REPL-01-Vertical.mp4",
+              "sha256": "62edc09d67d40cb24c507cc5e80265185b18a6232d89840b6b3804b4a7f07ac4",
+              "dimensions": [
+                1080,
+                1920
+              ]
+            }
+          }
+        },
+        "media_commit": "4d3599f46ea1de8b8ee439cdc67775935189d9cc"
       }
     },
     "receipts": {
