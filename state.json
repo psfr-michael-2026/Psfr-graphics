@@ -4656,7 +4656,7 @@
         "post_id": "6aefa1d2004e4879a7813584",
         "last_status": {
           "id": "6aefa1d2004e4879a7813584",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6ae08d042f1f5ed648e92cc0",
           "text": "What if you stopped describing exercise as paying for what you ate?\n\nTry giving your session a purpose you actually value: improving a skill, building strength, developing fitness or enjoying the activity. Food and exercise do not need a moral scorecard.\n\nWhat would you like your training to give you? Tell us in the comments.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-14T07:00:00.000Z",
@@ -4668,8 +4668,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-09T07:40:23.335165+00:00"
