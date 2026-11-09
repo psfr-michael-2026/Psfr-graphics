@@ -4742,7 +4742,7 @@
         "post_id": "6aefa1e0d6bbae6fa1b3173d",
         "last_status": {
           "id": "6aefa1e0d6bbae6fa1b3173d",
-          "status": "draft",
+          "status": "scheduled",
           "channelId": "6adac5fe778b240e2f96a871",
           "text": "A convincing video can make any training or nutrition claim sound certain.\n\nBefore changing your plan, check who is making the claim, whether their qualifications fit the subject, what evidence they provide and whether their advice suits your circumstances. Be especially cautious with guaranteed results and pressure to buy immediately.\n\nSave these questions for the next fitness claim in your feed.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
           "dueAt": "2026-11-14T19:00:00.000Z",
@@ -4754,8 +4754,8 @@
             }
           ]
         },
-        "verified_draft": true,
-        "verified_scheduled": false,
+        "verified_draft": false,
+        "verified_scheduled": true,
         "schedule_attempt": {
           "status": "accepted",
           "at": "2026-11-09T20:01:45.423074+00:00"
