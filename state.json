@@ -5263,7 +5263,23 @@
         "dueAt": "2026-11-18T07:00:00Z",
         "video_url": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/4d3599f46ea1de8b8ee439cdc67775935189d9cc/approved/rolling/PSFR-20261109-REPL-01-Vertical.mp4",
         "scheduling_type": "notification",
-        "post_id": "6af17a68796ccae26691d49e"
+        "post_id": "6af17a68796ccae26691d49e",
+        "last_status": {
+          "id": "6af17a68796ccae26691d49e",
+          "status": "draft",
+          "channelId": "6adac5fe778b240e2f96a871",
+          "text": "Lentils on the menu? Think about what you serve alongside them.\n\nLentils, beans and chickpeas provide plant iron. Including a food containing vitamin C in the same meal helps your body absorb that iron.\n\nTry cooked lentils with broccoli at your next meal. It is a simple food pairing you can use within a varied, balanced diet.\n\nSave this pairing for your next meal, and follow PSFR Health Systems for practical food, fitness and recovery ideas.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym",
+          "dueAt": "2026-11-18T07:00:00.000Z",
+          "schedulingType": "notification",
+          "assets": [
+            {
+              "mimeType": "video/mp4",
+              "source": "https://raw.githubusercontent.com/psfr-michael-2026/Psfr-graphics/4d3599f46ea1de8b8ee439cdc67775935189d9cc/approved/rolling/PSFR-20261109-REPL-01-Vertical.mp4"
+            }
+          ]
+        },
+        "verified_draft": true,
+        "verified_scheduled": false
       }
     },
     "verification": {
