@@ -44,10 +44,29 @@ def main(action):
     state=read_json(STATE,{})
     record=state.setdefault(KEY,{'posts':{},'receipts':{}})
     pending=[p for p in posts if any(not record['receipts'].get(p['id']+':'+service,{}).get('verified_scheduled') for _,service,_ in TARGETS)]
+    future = []
+    expired = []
+    for package in pending:
+        if stamp(package['dueAt']) > now:
+            future.append(package)
+            continue
+        # Keep the manifest and receipts for history. Never send a past slot.
+        for _, service, _ in TARGETS:
+            receipt = record['receipts'].get(package['id'] + ':' + service, {})
+            schedule_status = receipt.get('schedule_attempt', {}).get('status')
+            if (receipt.get('status') != 'accepted' or not receipt.get('post_id')
+                    or not (receipt.get('verified_draft') or receipt.get('verified_scheduled'))
+                    or schedule_status in {'pending', 'uncertain', 'rejected'}):
+                raise RuntimeError(
+                    f"Expired slot {package['id']} has an unresolved {service} receipt; reconcile first"
+                )
+        expired.append(package['id'])
+    if expired:
+        print('Expired approved slots left untouched: ' + ', '.join(expired), flush=True)
+    pending = future
     if not pending:
-        print('All approved packages already queued; no Buffer calls.');return
-    # A known missed slot is never moved or published late automatically.
-    assert all(stamp(p['dueAt'])>now for p in pending),'An approved slot has passed; human reconciliation required.'
+        print('No future approved packages need queueing; no Buffer calls.')
+        return
     def save():write_json(STATE,state);persist('PSFR: save approved rolling queue receipts')
     channels={c['id']:c for c in discover_channels()}
     for cid,service,mode in TARGETS:
