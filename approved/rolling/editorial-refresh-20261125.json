@@ -1,0 +1,121 @@
+{
+  "verified_on": "2026-11-25",
+  "timezone": "Europe/London",
+  "queue_scheduled_per_channel": 10,
+  "sent_entries_loaded_for_duplicate_check": 270,
+  "live_draft_entries": 31,
+  "review_scope": "Buffer Sent, Queue and Drafts; master plan; rolling manifest and state; finite-bank register; comparison within this batch. Channel copies are one editorial item.",
+  "posts": [
+    {
+      "id": "PSFR-20261125-01",
+      "theme": "Training",
+      "problem": "One side always gets more reps?",
+      "fix": "Start with the side that usually does fewer. Match those reps on the other side.",
+      "body": "When you train one side at a time with dumbbell curls, start with the arm that usually manages fewer tidy reps. If it gets eight controlled reps, stop at eight on the other side too. Keep the setup and load the same on both sides for that set.",
+      "cta": "Save this for your next dumbbell session.",
+      "check": "Different from the earlier dumbbell grip and weight-increase posts. This is about matching reps in a unilateral set.",
+      "replaces_finite_bank_item": "15",
+      "slot": "2026-11-26T07:00:00Z",
+      "buffer_state": "scheduled",
+      "channels": [
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "caption": "When you train one side at a time with dumbbell curls, start with the arm that usually manages fewer tidy reps. If it gets eight controlled reps, stop at eight on the other side too. Keep the setup and load the same on both sides for that set.\n\nSave this for your next dumbbell session.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym"
+    },
+    {
+      "id": "PSFR-20261125-02",
+      "theme": "Mental wellbeing",
+      "problem": "Want to talk but don’t know how to start?",
+      "fix": "Text someone you trust. “Could you listen for a few minutes?”",
+      "body": "If saying everything feels like too much, start by asking for the kind of support you want. Try sending this to someone you trust: “I’ve had a rough few days. Have you got a few minutes to listen?” You can decide how much to share once you’re talking.",
+      "cta": "Save the wording for when you need it.",
+      "evidence": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-talk-about-your-mental-health/",
+      "check": "Different from inviting a friend to exercise and the stress-prioritisation post. Gives a conversation opener and asks for listening.",
+      "replaces_finite_bank_item": "17",
+      "slot": "2026-11-27T07:00:00Z",
+      "buffer_state": "scheduled",
+      "channels": [
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "caption": "If saying everything feels like too much, start by asking for the kind of support you want. Try sending this to someone you trust: “I’ve had a rough few days. Have you got a few minutes to listen?” You can decide how much to share once you’re talking.\n\nSave the wording for when you need it.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym"
+    },
+    {
+      "id": "PSFR-20261125-03",
+      "theme": "Fresh start",
+      "problem": "Still living out of boxes after a move?",
+      "fix": "Set up one spot for your keys, charger and work bag.",
+      "body": "After a move, finding the same things every morning can get old fast. Pick one spot near the door for your keys and work bag, with your charger nearby if there’s a socket. Keep those things there when you get in. The rest of the boxes can wait.",
+      "cta": "Tell us in the comments what you unpacked first after your last move.",
+      "check": "Different from generic small steps, gym-bag prep and charging a phone away from the bed. Sets up a shared landing spot for daily essentials after relocation.",
+      "replaces_finite_bank_item": "19",
+      "slot": "2026-11-28T07:00:00Z",
+      "buffer_state": "scheduled",
+      "channels": [
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "caption": "After a move, finding the same things every morning can get old fast. Pick one spot near the door for your keys and work bag, with your charger nearby if there’s a socket. Keep those things there when you get in. The rest of the boxes can wait.\n\nTell us in the comments what you unpacked first after your last move.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym"
+    },
+    {
+      "id": "PSFR-20261125-04",
+      "theme": "Training",
+      "problem": "Pulling with your arms first on the rower?",
+      "fix": "Push with your legs first. Then hinge back slightly and draw the handle in.",
+      "body": "Try a few easy strokes on the rowing machine. Push through the footplates with your arms straight, hinge back slightly from your hips, then draw the handle towards your lower ribs. Reverse it on the way back: hands away, hinge forward, then bend your knees.",
+      "cta": "Save the sequence for your next warm-up on the rower.",
+      "evidence": "https://www.concept2.co.uk/training/rowing-technique",
+      "check": "Different from the single-arm dumbbell row, bike setup and cardio talk test. Teaches the order of an indoor rowing stroke.",
+      "replaces_finite_bank_item": "21",
+      "slot": "2026-11-29T07:00:00Z",
+      "buffer_state": "scheduled",
+      "channels": [
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "caption": "Try a few easy strokes on the rowing machine. Push through the footplates with your arms straight, hinge back slightly from your hips, then draw the handle towards your lower ribs. Reverse it on the way back: hands away, hinge forward, then bend your knees.\n\nSave the sequence for your next warm-up on the rower.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym"
+    },
+    {
+      "id": "PSFR-20261125-05",
+      "theme": "Mental wellbeing",
+      "problem": "Stress making it hard to stay in the moment?",
+      "fix": "Pause. Name five things you can see and four things you can feel.",
+      "body": "If stress is pulling your attention in every direction, try bringing it back to your surroundings. Name five things you can see and four you can feel, such as your feet on the floor or your sleeve against your arm. If you want to continue, notice three sounds, two smells and one taste.",
+      "cta": "Save this sensory exercise for a stressful day.",
+      "evidence": "https://www.nhsinform.scot/healthy-living/mental-wellbeing/breathing-and-relaxation-exercises/grounding-exercises/",
+      "check": "Different from writing down tomorrow’s task, putting a phone away or picking a priority. Uses a specific sensory grounding exercise.",
+      "replaces_finite_bank_item": "23",
+      "slot": "2026-11-30T07:00:00Z",
+      "buffer_state": "scheduled",
+      "channels": [
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "caption": "If stress is pulling your attention in every direction, try bringing it back to your surroundings. Name five things you can see and four you can feel, such as your feet on the floor or your sleeve against your arm. If you want to continue, notice three sounds, two smells and one taste.\n\nSave this sensory exercise for a stressful day.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym"
+    },
+    {
+      "id": "PSFR-20261125-06",
+      "theme": "Fresh start",
+      "problem": "Lost your job and stuck on what to put on your CV?",
+      "fix": "Write down one problem you solved and what changed because of it.",
+      "body": "Think of a time you sorted out a mix-up, helped someone learn the job or made a process easier. Write what the problem was, what you did and what changed. That gives you one real example to use when you update your CV or prepare for an interview.",
+      "cta": "Share this with someone preparing for their next job.",
+      "check": "Different from general setbacks and the earlier first-step theme. Gives a structured way to translate a previous job into evidence for a new application.",
+      "replaces_finite_bank_item": "25",
+      "slot": "2026-12-01T07:00:00Z",
+      "buffer_state": "draft",
+      "channels": [
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "caption": "Think of a time you sorted out a mix-up, helped someone learn the job or made a process easier. Write what the problem was, what you did and what changed. That gives you one real example to use when you update your CV or prepare for an interview.\n\nShare this with someone preparing for their next job.\n\nwww.psfrhealthsystems.co.uk\n\n#psfrhealthsystems #Fitness #Health #FitnessMotivation #gym"
+    }
+  ]
+}
