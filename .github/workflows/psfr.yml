@@ -6,13 +6,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: Choose demo first, then check, then draft. Queue can publish.
+        description: Choose demo first, then check, then draft.
         type: choice
-        options: [demo, check, test-draft, draft, queue]
+        options: [demo, check, test-draft, draft]
         default: demo
-  schedule:
-    - cron: '17 7,18 * * *'
-      timezone: Europe/London
 permissions:
   contents: write
 concurrency:
@@ -20,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   graphics:
-    if: github.event_name != 'schedule' || vars.PSFR_AUTOMATION_ENABLED == 'true'
+    if: github.event_name != 'schedule' && inputs.mode != 'queue'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -35,7 +32,7 @@ jobs:
           git config user.email 'psfr-automation@users.noreply.github.com'
       - name: Create graphic and send to Buffer
         env:
-          PSFR_MODE: ${{ inputs.mode || (github.event_name == 'schedule' && 'queue' || 'demo') }}
+          PSFR_MODE: ${{ inputs.mode || 'demo' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: python psfr.py "$PSFR_MODE"
