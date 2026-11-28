@@ -1,5 +1,9 @@
 # PSFR content production
 
+## Required per-post approval — 28 November 2026
+
+Michael's 28 November 2026 instruction supersedes standing permission for automatic publishing. Every individual PSFR post for Facebook, Instagram and TikTok requires Michael's explicit approval of the exact final two slides or video and caption, including any platform variations, before scheduling or publishing. Any revision requires fresh approval. Old reserve labels, batch scheduling, silence and deadlines do not count as approval for a specific final version. Hold items as drafts when exact-post approval cannot be verified. Do not publish directly, promote drafts, use a fallback post, enqueue, host unapproved media publicly, trigger GitHub top-up, or edit publishing schedules. Existing posted content is outside this task. Keep records and avoid duplicates.
+
 ## Required checks before every PSFR post
 
 Michael's standing instruction, 5 November 2026. Apply to every interactive post request and both daily preparation tasks.
@@ -14,13 +18,6 @@ Michael's standing instruction, 5 November 2026. Apply to every interactive post
 
 These checks are the assistant's responsibility on every run. Michael should not have to request them again.
 
-
-## Latest queue and reserve instruction — 8 November 2026
-
-LATEST STANDING AUTHORISATION — Michael, 8 November 2026: "I don't want buffer to run out again ... there needs to be a new post added once the space is drop ... it needs to stay full all the time. Both the queued and the ones that are in reserve." Maintain TEN future scheduled posts AND EIGHT distinct upload-ready reserve drafts per PSFR Facebook, Instagram and TikTok channel (18 upcoming editorial packages per channel). This supersedes the old fourteen-total/four-reserve target. His instruction authorises creating, quality-checking, hosting and uploading new routine PSFR replacement packages under the established brand/content rules without waiting for another per-package approval. It does not authorise purchases, new credentials, private story disclosure, paid external API generation or changing publishing modes. Record this standing authorisation honestly in approval_reference; never invent an exact-package approval.
-Before acting, read current master plan, repository AGENTS.md, AUTOMATION.md, manifest/state and live Buffer scheduled/draft/sent records. Never count sent items or unrelated legacy drafts as reserve. Reuse the SAME reserve IDs when filling vacant queued spaces via the existing hourly approved-topup pipeline. Reconcile uncertain writes before any retry; respect repository concurrency. Then create only the exact shortage of NEW distinct reserve packages, append at the chronological end with continuous 07:00/19:00 Europe/London slots, and verify Buffer readback for every channel. Coordinate with the PSFR reserve watch and both daily tasks through durable production reservations/records to avoid duplicate parallel production; reread state before promotion. A held/rejected/unreviewed old draft is not automatically approved by this instruction. Preserve current approved media/captions/IDs.
-New packages must have exactly TWO screens, original PSFR logo on both, mature professional photographic artwork, website, accurate source-checked useful content, duplicate checks against all prior topics/takeaways, full caption and CTA, exactly #psfrhealthsystems #Fitness #Health #FitnessMotivation #gym, silent 15-second videos with Facebook 1440x1800 and vertical 1080x1920. Visually inspect and verify files, save durably, then host public media before manifest promotion. Show completed new artwork/caption and concise verified counts; do not stop with a proposal. Facebook/Instagram automatic silent; TikTok remains phone handover. Leave public slots 07:00/19:00 unchanged.
-The existing repository refill checks hourly at minute 17; execution can be delayed. Do not claim instant replacement or guaranteed uptime. Report failures or a reserve deficit promptly with the actual blocker and counts. If bank is already full, do not manufacture extra replacements. Daily tasks may still prepare one next distinct review package, but avoid uploading beyond the target.
 
 ## Standing editorial instruction — Michael, 25 November 2026
 
