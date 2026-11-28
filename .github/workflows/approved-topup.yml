@@ -1,11 +1,6 @@
 name: PSFR approved posts and queue refill
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['approved/rolling/manifest.json', '.github/workflows/approved-topup.yml']
-  schedule:
-    - cron: '17 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -13,6 +8,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   topup:
+    # Hold publishing until exact-post approval is enforced.
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
